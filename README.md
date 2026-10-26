@@ -6,7 +6,7 @@ Code for the three PA3 experiments (EE-5102/CS-6304, Fall 2026):
 2. A SigLIP + Qwen3 vision-language model and visual grounding tests
 3. Test-time compute on the supplied Qwen2.5 rollouts
 
-GPU work was run on Google Colab (L4). Task 3's offline analysis runs on CPU.
+GPU work was run on Google Colab (T4). Task 3's offline analysis runs on CPU.
 
 ## Setup
 

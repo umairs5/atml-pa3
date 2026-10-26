@@ -33,16 +33,19 @@ def main():
     out = os.path.join(args.out, args.name)
     times = {}
     base = ["lm_eval", "--model", "hf", "--num_fewshot", "0", "--seed", "6304", "--log_samples"]
-    if not args.no_cache:
-        # responses are cached as they are produced, so a rerun after a disconnect picks up where it stopped
-        os.makedirs(os.path.join(out, "cache"), exist_ok=True)
-        base += ["--use_cache", os.path.join(out, "cache", "responses")]
     # every condition uses the hub tokenizer, same as the baseline
     margs = f"pretrained={args.model},tokenizer=Qwen/Qwen3-0.6B,dtype=float16"
 
     if "gsm8k" not in args.skip:
+        cache = []
+        if not args.no_cache:
+            # generations are cached as they finish, so a rerun after a disconnect picks up where it stopped.
+            # not used for the mc tasks: the cache commits each of the 56k loglikelihood results to sqlite,
+            # which made that run ~8x slower on Drive, and it only takes ~12 min uncached
+            os.makedirs(os.path.join(out, "cache"), exist_ok=True)
+            cache = ["--use_cache", os.path.join(out, "cache", "responses")]
         # zero-shot CoT, non-thinking chat template, greedy, 1024 new tokens, stock stops/filters
-        times["gsm8k_seconds"] = run(base + [
+        times["gsm8k_seconds"] = run(base + cache + [
             "--model_args", f"{margs},enable_thinking=False",
             "--tasks", "gsm8k_cot", "--apply_chat_template",
             "--gen_kwargs", "max_gen_toks=1024",
