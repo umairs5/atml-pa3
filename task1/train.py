@@ -10,6 +10,9 @@ import json
 import os
 import time
 
+# full FT + L2-SP runs close to the 15 GB of a T4, fragmentation alone can cause an OOM
+os.environ.setdefault("PYTORCH_CUDA_ALLOC_CONF", "expandable_segments:True")
+
 import numpy as np
 import torch
 import torch.nn.functional as F
@@ -182,7 +185,12 @@ def main():
     ref = None
     if lam > 0:
         ref_dev = cfg.get("ref_device", device)
-        ref = [p.detach().clone().to(ref_dev) for p in trainable]
+        if ref_dev == "cpu":
+            # pinned host copy, streamed to the GPU one tensor at a time in l2sp_grad
+            ref = [p.detach().cpu().clone().pin_memory() if use_amp else p.detach().cpu().clone()
+                   for p in trainable]
+        else:
+            ref = [p.detach().clone().to(ref_dev) for p in trainable]
         res["ref_bytes"] = sum(r.numel() * r.element_size() for r in ref)
         res["ref_device"] = ref_dev
         res["l2sp_seconds"] = 0.0
@@ -219,6 +227,8 @@ def main():
                 f.writelines(lines)
         print(f"resumed from {ck} at update {start}")
         del state
+    elif os.path.exists(log_path):
+        os.remove(log_path)  # leftovers from a run that died before its first checkpoint
 
     tok_pad = 151643  # <|endoftext|>, Qwen's pad token
     data = MetaMathData(args.data, tok_pad)
