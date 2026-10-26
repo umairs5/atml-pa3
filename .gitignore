@@ -1,0 +1,27 @@
+# data and assignment files
+ATML-PA3-Data/
+ATML-PA3.pdf
+*.parquet
+*.npz
+
+# run outputs / checkpoints
+outputs/
+runs/
+*.pt
+*.safetensors
+wandb/
+
+# python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# editor / tools
+.vscode/
+.idea/
+.claude/
+CLAUDE.md
+.DS_Store
+Thumbs.db

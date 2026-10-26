@@ -1,0 +1,18 @@
+name: lora_r16
+method: lora
+lr: 2.0e-4
+seed: 6304
+updates: 1250
+micro_batch: 2
+grad_accum: 16
+warmup: 38
+weight_decay: 0.01
+clip: 1.0
+save_updates: [312, 625, 937, 1250]
+export_updates: [1250]
+lora:
+  r: 16
+  alpha: 32
+  dropout: 0.05
+  protect_rank: 0
+  targets: [q_proj, k_proj, v_proj, o_proj, gate_proj, up_proj, down_proj]

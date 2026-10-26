@@ -1,0 +1,12 @@
+torch>=2.3
+transformers>=4.51,<5
+datasets>=2.19
+accelerate>=0.30
+safetensors
+lm_eval==0.4.13
+numpy
+pandas
+pyarrow
+pyyaml
+tqdm
+matplotlib

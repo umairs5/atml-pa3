@@ -1,0 +1,14 @@
+name: full_ft_l2sp
+method: full
+lr: 2.0e-5
+l2sp_lambda: 1.0e-3
+ref_device: cuda
+seed: 6304
+updates: 1250
+micro_batch: 2
+grad_accum: 16
+warmup: 38
+weight_decay: 0.01
+clip: 1.0
+save_updates: [312, 625, 937, 1250]
+export_updates: [1250]
