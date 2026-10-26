@@ -27,11 +27,16 @@ def main():
     ap.add_argument("--out", default="outputs/task1/lm_eval")
     ap.add_argument("--gen_batch_size", default="64")
     ap.add_argument("--skip", nargs="*", default=[], choices=["gsm8k", "mc"])
+    ap.add_argument("--no_cache", action="store_true")
     args = ap.parse_args()
 
     out = os.path.join(args.out, args.name)
     times = {}
     base = ["lm_eval", "--model", "hf", "--num_fewshot", "0", "--seed", "6304", "--log_samples"]
+    if not args.no_cache:
+        # responses are cached as they are produced, so a rerun after a disconnect picks up where it stopped
+        os.makedirs(os.path.join(out, "cache"), exist_ok=True)
+        base += ["--use_cache", os.path.join(out, "cache", "responses")]
     # every condition uses the hub tokenizer, same as the baseline
     margs = f"pretrained={args.model},tokenizer=Qwen/Qwen3-0.6B,dtype=float16"
 
