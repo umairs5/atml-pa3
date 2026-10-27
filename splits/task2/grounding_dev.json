@@ -1,0 +1,434 @@
+[
+  {
+    "kind": "presence",
+    "category": "microwave",
+    "question": "Does this image contain a microwave?",
+    "items": [
+      {
+        "image_id": 212351,
+        "answer": "no",
+        "mismatch_image_id": 262933
+      },
+      {
+        "image_id": 534957,
+        "answer": "yes",
+        "mismatch_image_id": 560266
+      }
+    ],
+    "pair_id": "dev_pres_000"
+  },
+  {
+    "kind": "presence",
+    "category": "suitcase",
+    "question": "Does this image contain a suitcase?",
+    "items": [
+      {
+        "image_id": 453321,
+        "answer": "no",
+        "mismatch_image_id": 331692
+      },
+      {
+        "image_id": 97156,
+        "answer": "yes",
+        "mismatch_image_id": 307871
+      }
+    ],
+    "pair_id": "dev_pres_001"
+  },
+  {
+    "kind": "presence",
+    "category": "kite",
+    "question": "Does this image contain a kite?",
+    "items": [
+      {
+        "image_id": 370711,
+        "answer": "no",
+        "mismatch_image_id": 526956
+      },
+      {
+        "image_id": 41859,
+        "answer": "yes",
+        "mismatch_image_id": 278988
+      }
+    ],
+    "pair_id": "dev_pres_002"
+  },
+  {
+    "kind": "presence",
+    "category": "horse",
+    "question": "Does this image contain a horse?",
+    "items": [
+      {
+        "image_id": 79229,
+        "answer": "yes",
+        "mismatch_image_id": 400794
+      },
+      {
+        "image_id": 268000,
+        "answer": "no",
+        "mismatch_image_id": 557780
+      }
+    ],
+    "pair_id": "dev_pres_003"
+  },
+  {
+    "kind": "presence",
+    "category": "cup",
+    "question": "Does this image contain a cup?",
+    "items": [
+      {
+        "image_id": 213961,
+        "answer": "no",
+        "mismatch_image_id": 489850
+      },
+      {
+        "image_id": 145520,
+        "answer": "yes",
+        "mismatch_image_id": 542782
+      }
+    ],
+    "pair_id": "dev_pres_004"
+  },
+  {
+    "kind": "presence",
+    "category": "remote",
+    "question": "Does this image contain a remote?",
+    "items": [
+      {
+        "image_id": 205693,
+        "answer": "yes",
+        "mismatch_image_id": 213961
+      },
+      {
+        "image_id": 572408,
+        "answer": "no",
+        "mismatch_image_id": 145520
+      }
+    ],
+    "pair_id": "dev_pres_005"
+  },
+  {
+    "kind": "presence",
+    "category": "skateboard",
+    "question": "Does this image contain a skateboard?",
+    "items": [
+      {
+        "image_id": 478621,
+        "answer": "no",
+        "mismatch_image_id": 235244
+      },
+      {
+        "image_id": 10678,
+        "answer": "yes",
+        "mismatch_image_id": 318523
+      }
+    ],
+    "pair_id": "dev_pres_006"
+  },
+  {
+    "kind": "presence",
+    "category": "broccoli",
+    "question": "Does this image contain broccoli?",
+    "items": [
+      {
+        "image_id": 3845,
+        "answer": "yes",
+        "mismatch_image_id": 212351
+      },
+      {
+        "image_id": 342271,
+        "answer": "no",
+        "mismatch_image_id": 534957
+      }
+    ],
+    "pair_id": "dev_pres_007"
+  },
+  {
+    "kind": "presence",
+    "category": "snowboard",
+    "question": "Does this image contain a snowboard?",
+    "items": [
+      {
+        "image_id": 281711,
+        "answer": "no",
+        "mismatch_image_id": 478621
+      },
+      {
+        "image_id": 288944,
+        "answer": "yes",
+        "mismatch_image_id": 10678
+      }
+    ],
+    "pair_id": "dev_pres_008"
+  },
+  {
+    "kind": "presence",
+    "category": "tie",
+    "question": "Does this image contain a tie?",
+    "items": [
+      {
+        "image_id": 8532,
+        "answer": "yes",
+        "mismatch_image_id": 183199
+      },
+      {
+        "image_id": 373783,
+        "answer": "no",
+        "mismatch_image_id": 293022
+      }
+    ],
+    "pair_id": "dev_pres_009"
+  },
+  {
+    "kind": "presence",
+    "category": "bird",
+    "question": "Does this image contain a bird?",
+    "items": [
+      {
+        "image_id": 131965,
+        "answer": "no",
+        "mismatch_image_id": 453321
+      },
+      {
+        "image_id": 250205,
+        "answer": "yes",
+        "mismatch_image_id": 97156
+      }
+    ],
+    "pair_id": "dev_pres_010"
+  },
+  {
+    "kind": "presence",
+    "category": "dog",
+    "question": "Does this image contain a dog?",
+    "items": [
+      {
+        "image_id": 400794,
+        "answer": "no",
+        "mismatch_image_id": 281711
+      },
+      {
+        "image_id": 557780,
+        "answer": "yes",
+        "mismatch_image_id": 288944
+      }
+    ],
+    "pair_id": "dev_pres_011"
+  },
+  {
+    "kind": "counting",
+    "category": "book",
+    "question": "How many books can you see?",
+    "items": [
+      {
+        "image_id": 183199,
+        "answer": "1",
+        "mismatch_image_id": 326082
+      },
+      {
+        "image_id": 293022,
+        "answer": "4",
+        "mismatch_image_id": 418578
+      }
+    ],
+    "pair_id": "dev_coun_012"
+  },
+  {
+    "kind": "counting",
+    "category": "tv",
+    "question": "How many tvs can you see?",
+    "items": [
+      {
+        "image_id": 365133,
+        "answer": "4",
+        "mismatch_image_id": 221872
+      },
+      {
+        "image_id": 233483,
+        "answer": "3",
+        "mismatch_image_id": 465585
+      }
+    ],
+    "pair_id": "dev_coun_013"
+  },
+  {
+    "kind": "counting",
+    "category": "spoon",
+    "question": "How many spoons can you see?",
+    "items": [
+      {
+        "image_id": 231052,
+        "answer": "3",
+        "mismatch_image_id": 370711
+      },
+      {
+        "image_id": 382207,
+        "answer": "2",
+        "mismatch_image_id": 41859
+      }
+    ],
+    "pair_id": "dev_coun_014"
+  },
+  {
+    "kind": "counting",
+    "category": "pizza",
+    "question": "How many pizzas can you see?",
+    "items": [
+      {
+        "image_id": 331692,
+        "answer": "2",
+        "mismatch_image_id": 119452
+      },
+      {
+        "image_id": 307871,
+        "answer": "1",
+        "mismatch_image_id": 335690
+      }
+    ],
+    "pair_id": "dev_coun_015"
+  },
+  {
+    "kind": "counting",
+    "category": "couch",
+    "question": "How many couches can you see?",
+    "items": [
+      {
+        "image_id": 326082,
+        "answer": "2",
+        "mismatch_image_id": 79229
+      },
+      {
+        "image_id": 418578,
+        "answer": "1",
+        "mismatch_image_id": 268000
+      }
+    ],
+    "pair_id": "dev_coun_016"
+  },
+  {
+    "kind": "counting",
+    "category": "carrot",
+    "question": "How many carrots can you see?",
+    "items": [
+      {
+        "image_id": 221872,
+        "answer": "3",
+        "mismatch_image_id": 3845
+      },
+      {
+        "image_id": 465585,
+        "answer": "4",
+        "mismatch_image_id": 342271
+      }
+    ],
+    "pair_id": "dev_coun_017"
+  },
+  {
+    "kind": "counting",
+    "category": "donut",
+    "question": "How many donuts can you see?",
+    "items": [
+      {
+        "image_id": 235244,
+        "answer": "4",
+        "mismatch_image_id": 231052
+      },
+      {
+        "image_id": 318523,
+        "answer": "3",
+        "mismatch_image_id": 382207
+      }
+    ],
+    "pair_id": "dev_coun_018"
+  },
+  {
+    "kind": "counting",
+    "category": "snowboard",
+    "question": "How many snowboards can you see?",
+    "items": [
+      {
+        "image_id": 489850,
+        "answer": "4",
+        "mismatch_image_id": 131965
+      },
+      {
+        "image_id": 542782,
+        "answer": "3",
+        "mismatch_image_id": 250205
+      }
+    ],
+    "pair_id": "dev_coun_019"
+  },
+  {
+    "kind": "counting",
+    "category": "cake",
+    "question": "How many cakes can you see?",
+    "items": [
+      {
+        "image_id": 526956,
+        "answer": "3",
+        "mismatch_image_id": 205693
+      },
+      {
+        "image_id": 278988,
+        "answer": "4",
+        "mismatch_image_id": 572408
+      }
+    ],
+    "pair_id": "dev_coun_020"
+  },
+  {
+    "kind": "counting",
+    "category": "motorcycle",
+    "question": "How many motorcycles can you see?",
+    "items": [
+      {
+        "image_id": 296012,
+        "answer": "3",
+        "mismatch_image_id": 365133
+      },
+      {
+        "image_id": 316332,
+        "answer": "1",
+        "mismatch_image_id": 233483
+      }
+    ],
+    "pair_id": "dev_coun_021"
+  },
+  {
+    "kind": "counting",
+    "category": "bear",
+    "question": "How many bears can you see?",
+    "items": [
+      {
+        "image_id": 262933,
+        "answer": "3",
+        "mismatch_image_id": 8532
+      },
+      {
+        "image_id": 560266,
+        "answer": "2",
+        "mismatch_image_id": 373783
+      }
+    ],
+    "pair_id": "dev_coun_022"
+  },
+  {
+    "kind": "counting",
+    "category": "orange",
+    "question": "How many oranges can you see?",
+    "items": [
+      {
+        "image_id": 119452,
+        "answer": "2",
+        "mismatch_image_id": 296012
+      },
+      {
+        "image_id": 335690,
+        "answer": "1",
+        "mismatch_image_id": 316332
+      }
+    ],
+    "pair_id": "dev_coun_023"
+  }
+]

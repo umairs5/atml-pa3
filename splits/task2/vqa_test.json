@@ -1,0 +1,4514 @@
+[
+  {
+    "pair_id": "434723002_454382011",
+    "answer_type": "yes/no",
+    "question": "Is it drivable?",
+    "items": [
+      {
+        "question_id": 434723002,
+        "image_id": 434723,
+        "target": "no",
+        "canonical": "no",
+        "votes": 9,
+        "answers": [
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "yes"
+        ],
+        "mismatch_image_id": 176120
+      },
+      {
+        "question_id": 454382011,
+        "image_id": 454382,
+        "target": "yes",
+        "canonical": "yes",
+        "votes": 8,
+        "answers": [
+          "yes",
+          "yes",
+          "yes",
+          "no",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "no"
+        ],
+        "mismatch_image_id": 397166
+      }
+    ]
+  },
+  {
+    "pair_id": "307866000_479597000",
+    "answer_type": "yes/no",
+    "question": "Is this a selfie?",
+    "items": [
+      {
+        "question_id": 307866000,
+        "image_id": 307866,
+        "target": "yes",
+        "canonical": "yes",
+        "votes": 9,
+        "answers": [
+          "yes",
+          "yes",
+          "yes",
+          "catch up",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes"
+        ],
+        "mismatch_image_id": 67307
+      },
+      {
+        "question_id": 479597000,
+        "image_id": 479597,
+        "target": "no",
+        "canonical": "no",
+        "votes": 9,
+        "answers": [
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "yes",
+          "no",
+          "no",
+          "no",
+          "no"
+        ],
+        "mismatch_image_id": 450247
+      }
+    ]
+  },
+  {
+    "pair_id": "493695002_187495011",
+    "answer_type": "yes/no",
+    "question": "Is the picture blurry?",
+    "items": [
+      {
+        "question_id": 493695002,
+        "image_id": 493695,
+        "target": "yes",
+        "canonical": "yes",
+        "votes": 10,
+        "answers": [
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes"
+        ],
+        "mismatch_image_id": 336001
+      },
+      {
+        "question_id": 187495011,
+        "image_id": 187495,
+        "target": "no",
+        "canonical": "no",
+        "votes": 9,
+        "answers": [
+          "no",
+          "no",
+          "no",
+          "no",
+          "yes",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no"
+        ],
+        "mismatch_image_id": 502141
+      }
+    ]
+  },
+  {
+    "pair_id": "457986001_520401013",
+    "answer_type": "yes/no",
+    "question": "Does this home have an open floor plan?",
+    "items": [
+      {
+        "question_id": 457986001,
+        "image_id": 457986,
+        "target": "yes",
+        "canonical": "yes",
+        "votes": 10,
+        "answers": [
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes"
+        ],
+        "mismatch_image_id": 409345
+      },
+      {
+        "question_id": 520401013,
+        "image_id": 520401,
+        "target": "no",
+        "canonical": "no",
+        "votes": 8,
+        "answers": [
+          "no",
+          "no",
+          "yes",
+          "no",
+          "no",
+          "no",
+          "yes",
+          "no",
+          "no",
+          "no"
+        ],
+        "mismatch_image_id": 36333
+      }
+    ]
+  },
+  {
+    "pair_id": "125485002_133611003",
+    "answer_type": "yes/no",
+    "question": "Is there anyone seen?",
+    "items": [
+      {
+        "question_id": 125485002,
+        "image_id": 125485,
+        "target": "no",
+        "canonical": "no",
+        "votes": 10,
+        "answers": [
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no"
+        ],
+        "mismatch_image_id": 175052
+      },
+      {
+        "question_id": 133611003,
+        "image_id": 133611,
+        "target": "yes",
+        "canonical": "yes",
+        "votes": 10,
+        "answers": [
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes"
+        ],
+        "mismatch_image_id": 92738
+      }
+    ]
+  },
+  {
+    "pair_id": "278435001_499622004",
+    "answer_type": "yes/no",
+    "question": "Does the man have a beard?",
+    "items": [
+      {
+        "question_id": 278435001,
+        "image_id": 278435,
+        "target": "yes",
+        "canonical": "yes",
+        "votes": 10,
+        "answers": [
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes"
+        ],
+        "mismatch_image_id": 508656
+      },
+      {
+        "question_id": 499622004,
+        "image_id": 499622,
+        "target": "no",
+        "canonical": "no",
+        "votes": 10,
+        "answers": [
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no"
+        ],
+        "mismatch_image_id": 221753
+      }
+    ]
+  },
+  {
+    "pair_id": "64884002_551910017",
+    "answer_type": "yes/no",
+    "question": "Are there trees at the back?",
+    "items": [
+      {
+        "question_id": 64884002,
+        "image_id": 64884,
+        "target": "yes",
+        "canonical": "yes",
+        "votes": 10,
+        "answers": [
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes"
+        ],
+        "mismatch_image_id": 248786
+      },
+      {
+        "question_id": 551910017,
+        "image_id": 551910,
+        "target": "no",
+        "canonical": "no",
+        "votes": 10,
+        "answers": [
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no"
+        ],
+        "mismatch_image_id": 69568
+      }
+    ]
+  },
+  {
+    "pair_id": "97589006_462576002",
+    "answer_type": "yes/no",
+    "question": "Would a vegetarian enjoy this meal?",
+    "items": [
+      {
+        "question_id": 97589006,
+        "image_id": 97589,
+        "target": "yes",
+        "canonical": "yes",
+        "votes": 10,
+        "answers": [
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes"
+        ],
+        "mismatch_image_id": 12979
+      },
+      {
+        "question_id": 462576002,
+        "image_id": 462576,
+        "target": "no",
+        "canonical": "no",
+        "votes": 8,
+        "answers": [
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "yes",
+          "yes",
+          "no",
+          "no"
+        ],
+        "mismatch_image_id": 183391
+      }
+    ]
+  },
+  {
+    "pair_id": "263223002_509826033",
+    "answer_type": "yes/no",
+    "question": "Is there snow?",
+    "items": [
+      {
+        "question_id": 263223002,
+        "image_id": 263223,
+        "target": "yes",
+        "canonical": "yes",
+        "votes": 10,
+        "answers": [
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes"
+        ],
+        "mismatch_image_id": 410380
+      },
+      {
+        "question_id": 509826033,
+        "image_id": 509826,
+        "target": "no",
+        "canonical": "no",
+        "votes": 10,
+        "answers": [
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no"
+        ],
+        "mismatch_image_id": 564091
+      }
+    ]
+  },
+  {
+    "pair_id": "512110001_360137006",
+    "answer_type": "yes/no",
+    "question": "Is anyone touching this umbrella?",
+    "items": [
+      {
+        "question_id": 512110001,
+        "image_id": 512110,
+        "target": "no",
+        "canonical": "no",
+        "votes": 9,
+        "answers": [
+          "no they are not",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no"
+        ],
+        "mismatch_image_id": 265574
+      },
+      {
+        "question_id": 360137006,
+        "image_id": 360137,
+        "target": "yes",
+        "canonical": "yes",
+        "votes": 10,
+        "answers": [
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes"
+        ],
+        "mismatch_image_id": 50655
+      }
+    ]
+  },
+  {
+    "pair_id": "403943003_98187004",
+    "answer_type": "yes/no",
+    "question": "Is the man carrying an umbrella?",
+    "items": [
+      {
+        "question_id": 403943003,
+        "image_id": 403943,
+        "target": "yes",
+        "canonical": "yes",
+        "votes": 10,
+        "answers": [
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes"
+        ],
+        "mismatch_image_id": 54007
+      },
+      {
+        "question_id": 98187004,
+        "image_id": 98187,
+        "target": "no",
+        "canonical": "no",
+        "votes": 10,
+        "answers": [
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no"
+        ],
+        "mismatch_image_id": 484331
+      }
+    ]
+  },
+  {
+    "pair_id": "441023002_234914032",
+    "answer_type": "yes/no",
+    "question": "Is there a blue crab painted?",
+    "items": [
+      {
+        "question_id": 441023002,
+        "image_id": 441023,
+        "target": "yes",
+        "canonical": "yes",
+        "votes": 9,
+        "answers": [
+          "wall",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes"
+        ],
+        "mismatch_image_id": 164635
+      },
+      {
+        "question_id": 234914032,
+        "image_id": 234914,
+        "target": "no",
+        "canonical": "no",
+        "votes": 9,
+        "answers": [
+          "no",
+          "no",
+          "no",
+          "no",
+          "not visible",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no"
+        ],
+        "mismatch_image_id": 66468
+      }
+    ]
+  },
+  {
+    "pair_id": "102349003_241291010",
+    "answer_type": "yes/no",
+    "question": "Does the bike have pedals?",
+    "items": [
+      {
+        "question_id": 102349003,
+        "image_id": 102349,
+        "target": "no",
+        "canonical": "no",
+        "votes": 8,
+        "answers": [
+          "no",
+          "yes",
+          "no",
+          "no",
+          "no",
+          "no",
+          "yes",
+          "no",
+          "no",
+          "no"
+        ],
+        "mismatch_image_id": 94940
+      },
+      {
+        "question_id": 241291010,
+        "image_id": 241291,
+        "target": "yes",
+        "canonical": "yes",
+        "votes": 10,
+        "answers": [
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes"
+        ],
+        "mismatch_image_id": 187565
+      }
+    ]
+  },
+  {
+    "pair_id": "509807004_369082008",
+    "answer_type": "yes/no",
+    "question": "Are there any tupperwares on top of the stove?",
+    "items": [
+      {
+        "question_id": 509807004,
+        "image_id": 509807,
+        "target": "yes",
+        "canonical": "yes",
+        "votes": 10,
+        "answers": [
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes"
+        ],
+        "mismatch_image_id": 574977
+      },
+      {
+        "question_id": 369082008,
+        "image_id": 369082,
+        "target": "no",
+        "canonical": "no",
+        "votes": 9,
+        "answers": [
+          "no",
+          "no",
+          "no",
+          "1",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no"
+        ],
+        "mismatch_image_id": 88360
+      }
+    ]
+  },
+  {
+    "pair_id": "410380000_564091009",
+    "answer_type": "yes/no",
+    "question": "Is the woman cooking?",
+    "items": [
+      {
+        "question_id": 410380000,
+        "image_id": 410380,
+        "target": "yes",
+        "canonical": "yes",
+        "votes": 8,
+        "answers": [
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "carrots?",
+          "no"
+        ],
+        "mismatch_image_id": 449031
+      },
+      {
+        "question_id": 564091009,
+        "image_id": 564091,
+        "target": "no",
+        "canonical": "no",
+        "votes": 10,
+        "answers": [
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no"
+        ],
+        "mismatch_image_id": 533107
+      }
+    ]
+  },
+  {
+    "pair_id": "12979002_183391002",
+    "answer_type": "yes/no",
+    "question": "Is this young man off the ground?",
+    "items": [
+      {
+        "question_id": 12979002,
+        "image_id": 12979,
+        "target": "yes",
+        "canonical": "yes",
+        "votes": 10,
+        "answers": [
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes"
+        ],
+        "mismatch_image_id": 113736
+      },
+      {
+        "question_id": 183391002,
+        "image_id": 183391,
+        "target": "no",
+        "canonical": "no",
+        "votes": 9,
+        "answers": [
+          "no",
+          "no",
+          "no",
+          "no",
+          "yes",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no"
+        ],
+        "mismatch_image_id": 569379
+      }
+    ]
+  },
+  {
+    "pair_id": "101948002_92028000",
+    "answer_type": "yes/no",
+    "question": "Does this man look happy?",
+    "items": [
+      {
+        "question_id": 101948002,
+        "image_id": 101948,
+        "target": "yes",
+        "canonical": "yes",
+        "votes": 10,
+        "answers": [
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes"
+        ],
+        "mismatch_image_id": 576701
+      },
+      {
+        "question_id": 92028000,
+        "image_id": 92028,
+        "target": "no",
+        "canonical": "no",
+        "votes": 10,
+        "answers": [
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no"
+        ],
+        "mismatch_image_id": 279386
+      }
+    ]
+  },
+  {
+    "pair_id": "17282001_97230019",
+    "answer_type": "yes/no",
+    "question": "Is this a zoo?",
+    "items": [
+      {
+        "question_id": 17282001,
+        "image_id": 17282,
+        "target": "yes",
+        "canonical": "yes",
+        "votes": 10,
+        "answers": [
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes"
+        ],
+        "mismatch_image_id": 158950
+      },
+      {
+        "question_id": 97230019,
+        "image_id": 97230,
+        "target": "no",
+        "canonical": "no",
+        "votes": 9,
+        "answers": [
+          "no",
+          "yes",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no"
+        ],
+        "mismatch_image_id": 208524
+      }
+    ]
+  },
+  {
+    "pair_id": "508656001_221753000",
+    "answer_type": "yes/no",
+    "question": "Is there a vacuum in the room?",
+    "items": [
+      {
+        "question_id": 508656001,
+        "image_id": 508656,
+        "target": "yes",
+        "canonical": "yes",
+        "votes": 10,
+        "answers": [
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes"
+        ],
+        "mismatch_image_id": 179950
+      },
+      {
+        "question_id": 221753000,
+        "image_id": 221753,
+        "target": "no",
+        "canonical": "no",
+        "votes": 10,
+        "answers": [
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no"
+        ],
+        "mismatch_image_id": 38155
+      }
+    ]
+  },
+  {
+    "pair_id": "32510003_105668004",
+    "answer_type": "yes/no",
+    "question": "Is the girl posing for a pic?",
+    "items": [
+      {
+        "question_id": 32510003,
+        "image_id": 32510,
+        "target": "yes",
+        "canonical": "yes",
+        "votes": 9,
+        "answers": [
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "no",
+          "yes"
+        ],
+        "mismatch_image_id": 125485
+      },
+      {
+        "question_id": 105668004,
+        "image_id": 105668,
+        "target": "no",
+        "canonical": "no",
+        "votes": 10,
+        "answers": [
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no"
+        ],
+        "mismatch_image_id": 133611
+      }
+    ]
+  },
+  {
+    "pair_id": "384726005_64313004",
+    "answer_type": "yes/no",
+    "question": "Could this picture be taken in the woods?",
+    "items": [
+      {
+        "question_id": 384726005,
+        "image_id": 384726,
+        "target": "yes",
+        "canonical": "yes",
+        "votes": 10,
+        "answers": [
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes"
+        ],
+        "mismatch_image_id": 4554
+      },
+      {
+        "question_id": 64313004,
+        "image_id": 64313,
+        "target": "no",
+        "canonical": "no",
+        "votes": 9,
+        "answers": [
+          "no",
+          "no",
+          "no",
+          "no",
+          "yes",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no"
+        ],
+        "mismatch_image_id": 71602
+      }
+    ]
+  },
+  {
+    "pair_id": "438738002_267076002",
+    "answer_type": "yes/no",
+    "question": "Is this child feeding the elephant?",
+    "items": [
+      {
+        "question_id": 438738002,
+        "image_id": 438738,
+        "target": "yes",
+        "canonical": "yes",
+        "votes": 9,
+        "answers": [
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "elephant",
+          "yes",
+          "yes",
+          "yes",
+          "yes"
+        ],
+        "mismatch_image_id": 60240
+      },
+      {
+        "question_id": 267076002,
+        "image_id": 267076,
+        "target": "no",
+        "canonical": "no",
+        "votes": 10,
+        "answers": [
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no"
+        ],
+        "mismatch_image_id": 476398
+      }
+    ]
+  },
+  {
+    "pair_id": "23575001_124911047",
+    "answer_type": "yes/no",
+    "question": "Is the monitor on?",
+    "items": [
+      {
+        "question_id": 23575001,
+        "image_id": 23575,
+        "target": "no",
+        "canonical": "no",
+        "votes": 9,
+        "answers": [
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "desk",
+          "no"
+        ],
+        "mismatch_image_id": 524665
+      },
+      {
+        "question_id": 124911047,
+        "image_id": 124911,
+        "target": "yes",
+        "canonical": "yes",
+        "votes": 10,
+        "answers": [
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes"
+        ],
+        "mismatch_image_id": 526044
+      }
+    ]
+  },
+  {
+    "pair_id": "60240001_476398028",
+    "answer_type": "yes/no",
+    "question": "Was this pic taken during the day?",
+    "items": [
+      {
+        "question_id": 60240001,
+        "image_id": 60240,
+        "target": "yes",
+        "canonical": "yes",
+        "votes": 10,
+        "answers": [
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes"
+        ],
+        "mismatch_image_id": 445505
+      },
+      {
+        "question_id": 476398028,
+        "image_id": 476398,
+        "target": "no",
+        "canonical": "no",
+        "votes": 10,
+        "answers": [
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no"
+        ],
+        "mismatch_image_id": 567011
+      }
+    ]
+  },
+  {
+    "pair_id": "358982000_307523006",
+    "answer_type": "yes/no",
+    "question": "Is the kid wearing helmet?",
+    "items": [
+      {
+        "question_id": 358982000,
+        "image_id": 358982,
+        "target": "yes",
+        "canonical": "yes",
+        "votes": 10,
+        "answers": [
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes"
+        ],
+        "mismatch_image_id": 132042
+      },
+      {
+        "question_id": 307523006,
+        "image_id": 307523,
+        "target": "no",
+        "canonical": "no",
+        "votes": 10,
+        "answers": [
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no"
+        ],
+        "mismatch_image_id": 223241
+      }
+    ]
+  },
+  {
+    "pair_id": "256180004_166166009",
+    "answer_type": "yes/no",
+    "question": "Is the tv on?",
+    "items": [
+      {
+        "question_id": 256180004,
+        "image_id": 256180,
+        "target": "no",
+        "canonical": "no",
+        "votes": 10,
+        "answers": [
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no"
+        ],
+        "mismatch_image_id": 558253
+      },
+      {
+        "question_id": 166166009,
+        "image_id": 166166,
+        "target": "yes",
+        "canonical": "yes",
+        "votes": 10,
+        "answers": [
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes"
+        ],
+        "mismatch_image_id": 3480
+      }
+    ]
+  },
+  {
+    "pair_id": "525354000_262895004",
+    "answer_type": "yes/no",
+    "question": "Is this a color photo?",
+    "items": [
+      {
+        "question_id": 525354000,
+        "image_id": 525354,
+        "target": "no",
+        "canonical": "no",
+        "votes": 9,
+        "answers": [
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "yes"
+        ],
+        "mismatch_image_id": 468541
+      },
+      {
+        "question_id": 262895004,
+        "image_id": 262895,
+        "target": "yes",
+        "canonical": "yes",
+        "votes": 10,
+        "answers": [
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes"
+        ],
+        "mismatch_image_id": 460757
+      }
+    ]
+  },
+  {
+    "pair_id": "207785001_141135002",
+    "answer_type": "yes/no",
+    "question": "Should this person be famous?",
+    "items": [
+      {
+        "question_id": 207785001,
+        "image_id": 207785,
+        "target": "yes",
+        "canonical": "yes",
+        "votes": 9,
+        "answers": [
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "no",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes"
+        ],
+        "mismatch_image_id": 256180
+      },
+      {
+        "question_id": 141135002,
+        "image_id": 141135,
+        "target": "no",
+        "canonical": "no",
+        "votes": 9,
+        "answers": [
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "yes"
+        ],
+        "mismatch_image_id": 166166
+      }
+    ]
+  },
+  {
+    "pair_id": "363981003_23121009",
+    "answer_type": "yes/no",
+    "question": "Is this sport dangerous?",
+    "items": [
+      {
+        "question_id": 363981003,
+        "image_id": 363981,
+        "target": "yes",
+        "canonical": "yes",
+        "votes": 10,
+        "answers": [
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes"
+        ],
+        "mismatch_image_id": 315173
+      },
+      {
+        "question_id": 23121009,
+        "image_id": 23121,
+        "target": "no",
+        "canonical": "no",
+        "votes": 10,
+        "answers": [
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no"
+        ],
+        "mismatch_image_id": 450206
+      }
+    ]
+  },
+  {
+    "pair_id": "119232002_41276011",
+    "answer_type": "yes/no",
+    "question": "Is the sky blue?",
+    "items": [
+      {
+        "question_id": 119232002,
+        "image_id": 119232,
+        "target": "no",
+        "canonical": "no",
+        "votes": 10,
+        "answers": [
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no"
+        ],
+        "mismatch_image_id": 64884
+      },
+      {
+        "question_id": 41276011,
+        "image_id": 41276,
+        "target": "yes",
+        "canonical": "yes",
+        "votes": 10,
+        "answers": [
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes"
+        ],
+        "mismatch_image_id": 551910
+      }
+    ]
+  },
+  {
+    "pair_id": "78032003_282046025",
+    "answer_type": "yes/no",
+    "question": "Is there a white and red sign?",
+    "items": [
+      {
+        "question_id": 78032003,
+        "image_id": 78032,
+        "target": "yes",
+        "canonical": "yes",
+        "votes": 9,
+        "answers": [
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "no"
+        ],
+        "mismatch_image_id": 527025
+      },
+      {
+        "question_id": 282046025,
+        "image_id": 282046,
+        "target": "no",
+        "canonical": "no",
+        "votes": 10,
+        "answers": [
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no"
+        ],
+        "mismatch_image_id": 423410
+      }
+    ]
+  },
+  {
+    "pair_id": "62170004_94852007",
+    "answer_type": "yes/no",
+    "question": "Is the elephant trunk straight?",
+    "items": [
+      {
+        "question_id": 62170004,
+        "image_id": 62170,
+        "target": "no",
+        "canonical": "no",
+        "votes": 10,
+        "answers": [
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no"
+        ],
+        "mismatch_image_id": 422025
+      },
+      {
+        "question_id": 94852007,
+        "image_id": 94852,
+        "target": "yes",
+        "canonical": "yes",
+        "votes": 9,
+        "answers": [
+          "no",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes"
+        ],
+        "mismatch_image_id": 34167
+      }
+    ]
+  },
+  {
+    "pair_id": "143503000_546823003",
+    "answer_type": "yes/no",
+    "question": "Are the leaves on the trees full?",
+    "items": [
+      {
+        "question_id": 143503000,
+        "image_id": 143503,
+        "target": "no",
+        "canonical": "no",
+        "votes": 10,
+        "answers": [
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no"
+        ],
+        "mismatch_image_id": 23575
+      },
+      {
+        "question_id": 546823003,
+        "image_id": 546823,
+        "target": "yes",
+        "canonical": "yes",
+        "votes": 9,
+        "answers": [
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "no",
+          "yes"
+        ],
+        "mismatch_image_id": 124911
+      }
+    ]
+  },
+  {
+    "pair_id": "570643008_489764007",
+    "answer_type": "yes/no",
+    "question": "Is this an older woman?",
+    "items": [
+      {
+        "question_id": 570643008,
+        "image_id": 570643,
+        "target": "yes",
+        "canonical": "yes",
+        "votes": 10,
+        "answers": [
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes"
+        ],
+        "mismatch_image_id": 384849
+      },
+      {
+        "question_id": 489764007,
+        "image_id": 489764,
+        "target": "no",
+        "canonical": "no",
+        "votes": 10,
+        "answers": [
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no"
+        ],
+        "mismatch_image_id": 321024
+      }
+    ]
+  },
+  {
+    "pair_id": "558253000_3480004",
+    "answer_type": "yes/no",
+    "question": "Are these steer in a pasture?",
+    "items": [
+      {
+        "question_id": 558253000,
+        "image_id": 558253,
+        "target": "no",
+        "canonical": "no",
+        "votes": 10,
+        "answers": [
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no"
+        ],
+        "mismatch_image_id": 307866
+      },
+      {
+        "question_id": 3480004,
+        "image_id": 3480,
+        "target": "yes",
+        "canonical": "yes",
+        "votes": 10,
+        "answers": [
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes"
+        ],
+        "mismatch_image_id": 479597
+      }
+    ]
+  },
+  {
+    "pair_id": "149197003_16730009",
+    "answer_type": "yes/no",
+    "question": "Is this jail?",
+    "items": [
+      {
+        "question_id": 149197003,
+        "image_id": 149197,
+        "target": "yes",
+        "canonical": "yes",
+        "votes": 10,
+        "answers": [
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes"
+        ],
+        "mismatch_image_id": 7278
+      },
+      {
+        "question_id": 16730009,
+        "image_id": 16730,
+        "target": "no",
+        "canonical": "no",
+        "votes": 10,
+        "answers": [
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no"
+        ],
+        "mismatch_image_id": 145750
+      }
+    ]
+  },
+  {
+    "pair_id": "146078000_243600010",
+    "answer_type": "number",
+    "question": "How many people are in the picture?",
+    "items": [
+      {
+        "question_id": 146078000,
+        "image_id": 146078,
+        "target": "1",
+        "canonical": "1",
+        "votes": 10,
+        "answers": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1"
+        ],
+        "mismatch_image_id": 438738
+      },
+      {
+        "question_id": 243600010,
+        "image_id": 243600,
+        "target": "4",
+        "canonical": "4",
+        "votes": 10,
+        "answers": [
+          "4",
+          "4",
+          "4",
+          "4",
+          "4",
+          "4",
+          "4",
+          "4",
+          "4",
+          "4"
+        ],
+        "mismatch_image_id": 267076
+      }
+    ]
+  },
+  {
+    "pair_id": "179950000_38155001",
+    "answer_type": "number",
+    "question": "How many people are shown?",
+    "items": [
+      {
+        "question_id": 179950000,
+        "image_id": 179950,
+        "target": "8",
+        "canonical": "8",
+        "votes": 8,
+        "answers": [
+          "many",
+          "9",
+          "8",
+          "8",
+          "8",
+          "8",
+          "8",
+          "8",
+          "8",
+          "8"
+        ],
+        "mismatch_image_id": 102349
+      },
+      {
+        "question_id": 38155001,
+        "image_id": 38155,
+        "target": "10",
+        "canonical": "10",
+        "votes": 9,
+        "answers": [
+          "10",
+          "10",
+          "10",
+          "10",
+          "10",
+          "10",
+          "10",
+          "10",
+          "10",
+          "9"
+        ],
+        "mismatch_image_id": 241291
+      }
+    ]
+  },
+  {
+    "pair_id": "468541001_460757004",
+    "answer_type": "number",
+    "question": "How many dogs?",
+    "items": [
+      {
+        "question_id": 468541001,
+        "image_id": 468541,
+        "target": "1",
+        "canonical": "1",
+        "votes": 9,
+        "answers": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "ibid",
+          "1",
+          "1",
+          "1"
+        ],
+        "mismatch_image_id": 452793
+      },
+      {
+        "question_id": 460757004,
+        "image_id": 460757,
+        "target": "0",
+        "canonical": "0",
+        "votes": 10,
+        "answers": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "mismatch_image_id": 538589
+      }
+    ]
+  },
+  {
+    "pair_id": "336892003_502001002",
+    "answer_type": "number",
+    "question": "How many light are hanging?",
+    "items": [
+      {
+        "question_id": 336892003,
+        "image_id": 336892,
+        "target": "2",
+        "canonical": "2",
+        "votes": 9,
+        "answers": [
+          "2",
+          "6",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2"
+        ],
+        "mismatch_image_id": 62170
+      },
+      {
+        "question_id": 502001002,
+        "image_id": 502001,
+        "target": "3",
+        "canonical": "3",
+        "votes": 10,
+        "answers": [
+          "3",
+          "3",
+          "3",
+          "3",
+          "3",
+          "3",
+          "3",
+          "3",
+          "3",
+          "3"
+        ],
+        "mismatch_image_id": 94852
+      }
+    ]
+  },
+  {
+    "pair_id": "409345000_36333002",
+    "answer_type": "number",
+    "question": "How many children are on the half pipe?",
+    "items": [
+      {
+        "question_id": 409345000,
+        "image_id": 409345,
+        "target": "4",
+        "canonical": "4",
+        "votes": 8,
+        "answers": [
+          "4",
+          "5",
+          "4",
+          "5",
+          "4",
+          "4",
+          "4",
+          "4",
+          "4",
+          "4"
+        ],
+        "mismatch_image_id": 149197
+      },
+      {
+        "question_id": 36333002,
+        "image_id": 36333,
+        "target": "1",
+        "canonical": "1",
+        "votes": 8,
+        "answers": [
+          "1",
+          "1",
+          "0",
+          "1",
+          "1",
+          "1",
+          "0",
+          "1",
+          "1",
+          "1"
+        ],
+        "mismatch_image_id": 16730
+      }
+    ]
+  },
+  {
+    "pair_id": "176120001_397166002",
+    "answer_type": "number",
+    "question": "How many towels are hanging on the towel rack?",
+    "items": [
+      {
+        "question_id": 176120001,
+        "image_id": 176120,
+        "target": "0",
+        "canonical": "0",
+        "votes": 9,
+        "answers": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "hot"
+        ],
+        "mismatch_image_id": 376185
+      },
+      {
+        "question_id": 397166002,
+        "image_id": 397166,
+        "target": "1",
+        "canonical": "1",
+        "votes": 10,
+        "answers": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1"
+        ],
+        "mismatch_image_id": 558213
+      }
+    ]
+  },
+  {
+    "pair_id": "158950007_208524015",
+    "answer_type": "number",
+    "question": "What number is on the train?",
+    "items": [
+      {
+        "question_id": 158950007,
+        "image_id": 158950,
+        "target": "8103",
+        "canonical": "8103",
+        "votes": 10,
+        "answers": [
+          "8103",
+          "8103",
+          "8103",
+          "8103",
+          "8103",
+          "8103",
+          "8103",
+          "8103",
+          "8103",
+          "8103"
+        ],
+        "mismatch_image_id": 363981
+      },
+      {
+        "question_id": 208524015,
+        "image_id": 208524,
+        "target": "9018",
+        "canonical": "9018",
+        "votes": 10,
+        "answers": [
+          "9018",
+          "9018",
+          "9018",
+          "9018",
+          "9018",
+          "9018",
+          "9018",
+          "9018",
+          "9018",
+          "9018"
+        ],
+        "mismatch_image_id": 23121
+      }
+    ]
+  },
+  {
+    "pair_id": "91636001_106375004",
+    "answer_type": "number",
+    "question": "How many fingers is the man pointing?",
+    "items": [
+      {
+        "question_id": 91636001,
+        "image_id": 91636,
+        "target": "1",
+        "canonical": "1",
+        "votes": 10,
+        "answers": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1"
+        ],
+        "mismatch_image_id": 52982
+      },
+      {
+        "question_id": 106375004,
+        "image_id": 106375,
+        "target": "2",
+        "canonical": "2",
+        "votes": 9,
+        "answers": [
+          "2",
+          "2",
+          "2",
+          "2 thumbs",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2"
+        ],
+        "mismatch_image_id": 561856
+      }
+    ]
+  },
+  {
+    "pair_id": "394352002_82375003",
+    "answer_type": "number",
+    "question": "How many zebras?",
+    "items": [
+      {
+        "question_id": 394352002,
+        "image_id": 394352,
+        "target": "3",
+        "canonical": "3",
+        "votes": 10,
+        "answers": [
+          "3",
+          "3",
+          "3",
+          "3",
+          "3",
+          "3",
+          "3",
+          "3",
+          "3",
+          "3"
+        ],
+        "mismatch_image_id": 278435
+      },
+      {
+        "question_id": 82375003,
+        "image_id": 82375,
+        "target": "2",
+        "canonical": "2",
+        "votes": 10,
+        "answers": [
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2"
+        ],
+        "mismatch_image_id": 499622
+      }
+    ]
+  },
+  {
+    "pair_id": "208050006_407822014",
+    "answer_type": "number",
+    "question": "How many women are in the picture?",
+    "items": [
+      {
+        "question_id": 208050006,
+        "image_id": 208050,
+        "target": "1",
+        "canonical": "1",
+        "votes": 10,
+        "answers": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1"
+        ],
+        "mismatch_image_id": 515355
+      },
+      {
+        "question_id": 407822014,
+        "image_id": 407822,
+        "target": "2",
+        "canonical": "2",
+        "votes": 10,
+        "answers": [
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2"
+        ],
+        "mismatch_image_id": 241149
+      }
+    ]
+  },
+  {
+    "pair_id": "175052000_92738005",
+    "answer_type": "number",
+    "question": "How many humans?",
+    "items": [
+      {
+        "question_id": 175052000,
+        "image_id": 175052,
+        "target": "1",
+        "canonical": "1",
+        "votes": 10,
+        "answers": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1"
+        ],
+        "mismatch_image_id": 144863
+      },
+      {
+        "question_id": 92738005,
+        "image_id": 92738,
+        "target": "3",
+        "canonical": "3",
+        "votes": 10,
+        "answers": [
+          "3",
+          "3",
+          "3",
+          "3",
+          "3",
+          "3",
+          "3",
+          "3",
+          "3",
+          "3"
+        ],
+        "mismatch_image_id": 82157
+      }
+    ]
+  },
+  {
+    "pair_id": "473783001_146836002",
+    "answer_type": "number",
+    "question": "How many tracks have no trains on them?",
+    "items": [
+      {
+        "question_id": 473783001,
+        "image_id": 473783,
+        "target": "2",
+        "canonical": "2",
+        "votes": 8,
+        "answers": [
+          "2",
+          "1",
+          "2",
+          "2",
+          "2",
+          "2",
+          "3",
+          "2",
+          "2",
+          "2"
+        ],
+        "mismatch_image_id": 358982
+      },
+      {
+        "question_id": 146836002,
+        "image_id": 146836,
+        "target": "1",
+        "canonical": "1",
+        "votes": 10,
+        "answers": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1"
+        ],
+        "mismatch_image_id": 307523
+      }
+    ]
+  },
+  {
+    "pair_id": "68546001_537860005",
+    "answer_type": "number",
+    "question": "How many men?",
+    "items": [
+      {
+        "question_id": 68546001,
+        "image_id": 68546,
+        "target": "2",
+        "canonical": "2",
+        "votes": 10,
+        "answers": [
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2"
+        ],
+        "mismatch_image_id": 124803
+      },
+      {
+        "question_id": 537860005,
+        "image_id": 537860,
+        "target": "1",
+        "canonical": "1",
+        "votes": 10,
+        "answers": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1"
+        ],
+        "mismatch_image_id": 103496
+      }
+    ]
+  },
+  {
+    "pair_id": "371216000_179699011",
+    "answer_type": "number",
+    "question": "How many bottles are in the picture?",
+    "items": [
+      {
+        "question_id": 371216000,
+        "image_id": 371216,
+        "target": "2",
+        "canonical": "2",
+        "votes": 10,
+        "answers": [
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2"
+        ],
+        "mismatch_image_id": 304217
+      },
+      {
+        "question_id": 179699011,
+        "image_id": 179699,
+        "target": "1",
+        "canonical": "1",
+        "votes": 8,
+        "answers": [
+          "2",
+          "1",
+          "2",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1"
+        ],
+        "mismatch_image_id": 105052
+      }
+    ]
+  },
+  {
+    "pair_id": "445505002_567011006",
+    "answer_type": "number",
+    "question": "How many fingers is the man holding up?",
+    "items": [
+      {
+        "question_id": 445505002,
+        "image_id": 445505,
+        "target": "1",
+        "canonical": "1",
+        "votes": 9,
+        "answers": [
+          "1",
+          "1",
+          "2",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1"
+        ],
+        "mismatch_image_id": 434723
+      },
+      {
+        "question_id": 567011006,
+        "image_id": 567011,
+        "target": "5",
+        "canonical": "5",
+        "votes": 9,
+        "answers": [
+          "5",
+          "5",
+          "2",
+          "5",
+          "5",
+          "5",
+          "5",
+          "5",
+          "5",
+          "5"
+        ],
+        "mismatch_image_id": 454382
+      }
+    ]
+  },
+  {
+    "pair_id": "148526000_487450013",
+    "answer_type": "number",
+    "question": "How many people are on motorcycles?",
+    "items": [
+      {
+        "question_id": 148526000,
+        "image_id": 148526,
+        "target": "4",
+        "canonical": "4",
+        "votes": 10,
+        "answers": [
+          "4",
+          "4",
+          "4",
+          "4",
+          "4",
+          "4",
+          "4",
+          "4",
+          "4",
+          "4"
+        ],
+        "mismatch_image_id": 571920
+      },
+      {
+        "question_id": 487450013,
+        "image_id": 487450,
+        "target": "2",
+        "canonical": "2",
+        "votes": 10,
+        "answers": [
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2"
+        ],
+        "mismatch_image_id": 424601
+      }
+    ]
+  },
+  {
+    "pair_id": "577024002_249658000",
+    "answer_type": "number",
+    "question": "What is the number showing on the transit?",
+    "items": [
+      {
+        "question_id": 577024002,
+        "image_id": 577024,
+        "target": "150",
+        "canonical": "150",
+        "votes": 10,
+        "answers": [
+          "150",
+          "150",
+          "150",
+          "150",
+          "150",
+          "150",
+          "150",
+          "150",
+          "150",
+          "150"
+        ],
+        "mismatch_image_id": 512110
+      },
+      {
+        "question_id": 249658000,
+        "image_id": 249658,
+        "target": "74",
+        "canonical": "74",
+        "votes": 10,
+        "answers": [
+          "74",
+          "74",
+          "74",
+          "74",
+          "74",
+          "74",
+          "74",
+          "74",
+          "74",
+          "74"
+        ],
+        "mismatch_image_id": 360137
+      }
+    ]
+  },
+  {
+    "pair_id": "4554001_71602000",
+    "answer_type": "number",
+    "question": "How many people are in the pic?",
+    "items": [
+      {
+        "question_id": 4554001,
+        "image_id": 4554,
+        "target": "6",
+        "canonical": "6",
+        "votes": 10,
+        "answers": [
+          "6",
+          "6",
+          "6",
+          "6",
+          "6",
+          "6",
+          "6",
+          "6",
+          "6",
+          "6"
+        ],
+        "mismatch_image_id": 525354
+      },
+      {
+        "question_id": 71602000,
+        "image_id": 71602,
+        "target": "8",
+        "canonical": "8",
+        "votes": 8,
+        "answers": [
+          "8",
+          "8",
+          "8",
+          "8",
+          "8",
+          "8",
+          "7",
+          "8",
+          "7",
+          "8"
+        ],
+        "mismatch_image_id": 262895
+      }
+    ]
+  },
+  {
+    "pair_id": "111535003_104982008",
+    "answer_type": "number",
+    "question": "What time does the digital clock read?",
+    "items": [
+      {
+        "question_id": 111535003,
+        "image_id": 111535,
+        "target": "18:23",
+        "canonical": "18:23",
+        "votes": 8,
+        "answers": [
+          "18:23",
+          "18:23",
+          "18:23",
+          "18:23",
+          "eighteen twenty-three",
+          "18:23",
+          "18:23",
+          "18:23",
+          "18:23",
+          "6:23"
+        ],
+        "mismatch_image_id": 119232
+      },
+      {
+        "question_id": 104982008,
+        "image_id": 104982,
+        "target": "13:04",
+        "canonical": "13:04",
+        "votes": 9,
+        "answers": [
+          "13:04",
+          "13:04",
+          "13:04",
+          "13:04",
+          "13:04",
+          "1304",
+          "13:04",
+          "13:04",
+          "13:04",
+          "13:04"
+        ],
+        "mismatch_image_id": 41276
+      }
+    ]
+  },
+  {
+    "pair_id": "42711002_254931002",
+    "answer_type": "number",
+    "question": "What time is it?",
+    "items": [
+      {
+        "question_id": 42711002,
+        "image_id": 42711,
+        "target": "6:36",
+        "canonical": "6:36",
+        "votes": 8,
+        "answers": [
+          "6:36",
+          "6:36",
+          "6:36",
+          "6:36 am",
+          "636",
+          "6:36",
+          "6:36",
+          "6:36",
+          "6:36",
+          "6:36"
+        ],
+        "mismatch_image_id": 101948
+      },
+      {
+        "question_id": 254931002,
+        "image_id": 254931,
+        "target": "10:20",
+        "canonical": "10:20",
+        "votes": 8,
+        "answers": [
+          "10:20",
+          "10:20",
+          "10:20",
+          "10:20",
+          "10:20",
+          "10:20",
+          "10:19",
+          "10:20",
+          "10:20",
+          "10:40"
+        ],
+        "mismatch_image_id": 92028
+      }
+    ]
+  },
+  {
+    "pair_id": "142249004_61175001",
+    "answer_type": "number",
+    "question": "What number is on the shirt?",
+    "items": [
+      {
+        "question_id": 142249004,
+        "image_id": 142249,
+        "target": "23",
+        "canonical": "23",
+        "votes": 10,
+        "answers": [
+          "23",
+          "23",
+          "23",
+          "23",
+          "23",
+          "23",
+          "23",
+          "23",
+          "23",
+          "23"
+        ],
+        "mismatch_image_id": 473783
+      },
+      {
+        "question_id": 61175001,
+        "image_id": 61175,
+        "target": "19",
+        "canonical": "19",
+        "votes": 10,
+        "answers": [
+          "19",
+          "19",
+          "19",
+          "19",
+          "19",
+          "19",
+          "19",
+          "19",
+          "19",
+          "19"
+        ],
+        "mismatch_image_id": 146836
+      }
+    ]
+  },
+  {
+    "pair_id": "552237004_551338018",
+    "answer_type": "number",
+    "question": "How many white t shirts do you see?",
+    "items": [
+      {
+        "question_id": 552237004,
+        "image_id": 552237,
+        "target": "5",
+        "canonical": "5",
+        "votes": 10,
+        "answers": [
+          "5",
+          "5",
+          "5",
+          "5",
+          "5",
+          "5",
+          "5",
+          "5",
+          "5",
+          "5"
+        ],
+        "mismatch_image_id": 143526
+      },
+      {
+        "question_id": 551338018,
+        "image_id": 551338,
+        "target": "1",
+        "canonical": "1",
+        "votes": 10,
+        "answers": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1"
+        ],
+        "mismatch_image_id": 481009
+      }
+    ]
+  },
+  {
+    "pair_id": "143526001_481009003",
+    "answer_type": "number",
+    "question": "How many empty vases are in the image?",
+    "items": [
+      {
+        "question_id": 143526001,
+        "image_id": 143526,
+        "target": "1",
+        "canonical": "1",
+        "votes": 8,
+        "answers": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "0",
+          "1",
+          "1",
+          "0"
+        ],
+        "mismatch_image_id": 263223
+      },
+      {
+        "question_id": 481009003,
+        "image_id": 481009,
+        "target": "2",
+        "canonical": "2",
+        "votes": 9,
+        "answers": [
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "0",
+          "2",
+          "2",
+          "2",
+          "2"
+        ],
+        "mismatch_image_id": 509826
+      }
+    ]
+  },
+  {
+    "pair_id": "571920003_424601028",
+    "answer_type": "number",
+    "question": "How many dogs are shown?",
+    "items": [
+      {
+        "question_id": 571920003,
+        "image_id": 571920,
+        "target": "2",
+        "canonical": "2",
+        "votes": 9,
+        "answers": [
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "1",
+          "2",
+          "2"
+        ],
+        "mismatch_image_id": 160283
+      },
+      {
+        "question_id": 424601028,
+        "image_id": 424601,
+        "target": "0",
+        "canonical": "0",
+        "votes": 9,
+        "answers": [
+          "0",
+          "1",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "mismatch_image_id": 480215
+      }
+    ]
+  },
+  {
+    "pair_id": "315173001_450206009",
+    "answer_type": "other",
+    "question": "What is written on the bus?",
+    "items": [
+      {
+        "question_id": 315173001,
+        "image_id": 315173,
+        "target": "crude",
+        "canonical": "crude",
+        "votes": 10,
+        "answers": [
+          "crude",
+          "crude",
+          "crude",
+          "crude",
+          "crude",
+          "crude",
+          "crude",
+          "crude",
+          "crude",
+          "crude"
+        ],
+        "mismatch_image_id": 143503
+      },
+      {
+        "question_id": 450206009,
+        "image_id": 450206,
+        "target": "green tortoise",
+        "canonical": "green tortoise",
+        "votes": 10,
+        "answers": [
+          "green tortoise",
+          "green tortoise",
+          "green tortoise",
+          "green tortoise",
+          "green tortoise",
+          "green tortoise",
+          "green tortoise",
+          "green tortoise",
+          "green tortoise",
+          "green tortoise"
+        ],
+        "mismatch_image_id": 546823
+      }
+    ]
+  },
+  {
+    "pair_id": "304217001_105052008",
+    "answer_type": "other",
+    "question": "What company has their name on the wall?",
+    "items": [
+      {
+        "question_id": 304217001,
+        "image_id": 304217,
+        "target": "honda",
+        "canonical": "honda",
+        "votes": 10,
+        "answers": [
+          "honda",
+          "honda",
+          "honda",
+          "honda",
+          "honda",
+          "honda",
+          "honda",
+          "honda",
+          "honda",
+          "honda"
+        ],
+        "mismatch_image_id": 345294
+      },
+      {
+        "question_id": 105052008,
+        "image_id": 105052,
+        "target": "longfellows inn",
+        "canonical": "longfellows inn",
+        "votes": 9,
+        "answers": [
+          "longfellows inn",
+          "longfellows inn",
+          "longfellows inn",
+          "longfellows inn",
+          "longfellows",
+          "longfellows inn",
+          "longfellows inn",
+          "longfellows inn",
+          "longfellows inn",
+          "longfellows inn"
+        ],
+        "mismatch_image_id": 58778
+      }
+    ]
+  },
+  {
+    "pair_id": "160283002_480215003",
+    "answer_type": "other",
+    "question": "What color are the water pipes?",
+    "items": [
+      {
+        "question_id": 160283002,
+        "image_id": 160283,
+        "target": "green",
+        "canonical": "green",
+        "votes": 9,
+        "answers": [
+          "green",
+          "green",
+          "green",
+          "silver and green",
+          "green",
+          "green",
+          "green",
+          "green",
+          "green",
+          "green"
+        ],
+        "mismatch_image_id": 97589
+      },
+      {
+        "question_id": 480215003,
+        "image_id": 480215,
+        "target": "silver",
+        "canonical": "silver",
+        "votes": 8,
+        "answers": [
+          "gray",
+          "silver",
+          "silver",
+          "stainless",
+          "silver",
+          "silver",
+          "silver",
+          "silver",
+          "silver",
+          "silver"
+        ],
+        "mismatch_image_id": 462576
+      }
+    ]
+  },
+  {
+    "pair_id": "7278010_145750001",
+    "answer_type": "other",
+    "question": "Is the man's head or butt higher in the air?",
+    "items": [
+      {
+        "question_id": 7278010,
+        "image_id": 7278,
+        "target": "butt",
+        "canonical": "butt",
+        "votes": 8,
+        "answers": [
+          "butt",
+          "his butt",
+          "butt",
+          "butt",
+          "butt",
+          "butt",
+          "butt",
+          "yes, it is",
+          "butt",
+          "butt"
+        ],
+        "mismatch_image_id": 142249
+      },
+      {
+        "question_id": 145750001,
+        "image_id": 145750,
+        "target": "head",
+        "canonical": "head",
+        "votes": 10,
+        "answers": [
+          "head",
+          "head",
+          "head",
+          "head",
+          "head",
+          "head",
+          "head",
+          "head",
+          "head",
+          "head"
+        ],
+        "mismatch_image_id": 61175
+      }
+    ]
+  },
+  {
+    "pair_id": "384849001_321024003",
+    "answer_type": "other",
+    "question": "What color are the street markings?",
+    "items": [
+      {
+        "question_id": 384849001,
+        "image_id": 384849,
+        "target": "white",
+        "canonical": "white",
+        "votes": 10,
+        "answers": [
+          "white",
+          "white",
+          "white",
+          "white",
+          "white",
+          "white",
+          "white",
+          "white",
+          "white",
+          "white"
+        ],
+        "mismatch_image_id": 389123
+      },
+      {
+        "question_id": 321024003,
+        "image_id": 321024,
+        "target": "yellow",
+        "canonical": "yellow",
+        "votes": 8,
+        "answers": [
+          "yellow",
+          "white",
+          "yellow",
+          "yellow",
+          "yellow",
+          "green",
+          "yellow",
+          "yellow",
+          "yellow",
+          "yellow"
+        ],
+        "mismatch_image_id": 392998
+      }
+    ]
+  },
+  {
+    "pair_id": "576701007_279386009",
+    "answer_type": "other",
+    "question": "What is the cat wearing around its neck?",
+    "items": [
+      {
+        "question_id": 576701007,
+        "image_id": 576701,
+        "target": "collar",
+        "canonical": "collar",
+        "votes": 9,
+        "answers": [
+          "collar",
+          "collar",
+          "collar",
+          "collar",
+          "collar",
+          "color",
+          "collar",
+          "collar",
+          "collar",
+          "collar"
+        ],
+        "mismatch_image_id": 17282
+      },
+      {
+        "question_id": 279386009,
+        "image_id": 279386,
+        "target": "nothing",
+        "canonical": "nothing",
+        "votes": 9,
+        "answers": [
+          "nothing",
+          "nothing",
+          "nothing",
+          "nothing",
+          "nothing",
+          "nothing",
+          "collar",
+          "nothing",
+          "nothing",
+          "nothing"
+        ],
+        "mismatch_image_id": 97230
+      }
+    ]
+  },
+  {
+    "pair_id": "245311001_257336003",
+    "answer_type": "other",
+    "question": "What kind of food is being made here?",
+    "items": [
+      {
+        "question_id": 245311001,
+        "image_id": 245311,
+        "target": "donuts",
+        "canonical": "donuts",
+        "votes": 8,
+        "answers": [
+          "donuts",
+          "donuts",
+          "donuts",
+          "carnival food",
+          "donuts",
+          "donuts",
+          "donuts",
+          "donuts",
+          "donuts",
+          "doughnuts"
+        ],
+        "mismatch_image_id": 577024
+      },
+      {
+        "question_id": 257336003,
+        "image_id": 257336,
+        "target": "pizza",
+        "canonical": "pizza",
+        "votes": 10,
+        "answers": [
+          "pizza",
+          "pizza",
+          "pizza",
+          "pizza",
+          "pizza",
+          "pizza",
+          "pizza",
+          "pizza",
+          "pizza",
+          "pizza"
+        ],
+        "mismatch_image_id": 249658
+      }
+    ]
+  },
+  {
+    "pair_id": "132042004_223241023",
+    "answer_type": "other",
+    "question": "What color is his shirt?",
+    "items": [
+      {
+        "question_id": 132042004,
+        "image_id": 132042,
+        "target": "gray",
+        "canonical": "gray",
+        "votes": 9,
+        "answers": [
+          "gray",
+          "gray",
+          "white",
+          "gray",
+          "gray",
+          "gray",
+          "gray",
+          "gray",
+          "gray",
+          "gray"
+        ],
+        "mismatch_image_id": 394352
+      },
+      {
+        "question_id": 223241023,
+        "image_id": 223241,
+        "target": "blue",
+        "canonical": "blue",
+        "votes": 10,
+        "answers": [
+          "blue",
+          "blue",
+          "blue",
+          "blue",
+          "blue",
+          "blue",
+          "blue",
+          "blue",
+          "blue",
+          "blue"
+        ],
+        "mismatch_image_id": 82375
+      }
+    ]
+  },
+  {
+    "pair_id": "449031001_533107009",
+    "answer_type": "other",
+    "question": "What is the large word on the side of the bus?",
+    "items": [
+      {
+        "question_id": 449031001,
+        "image_id": 449031,
+        "target": "quaylink",
+        "canonical": "quaylink",
+        "votes": 10,
+        "answers": [
+          "quaylink",
+          "quaylink",
+          "quaylink",
+          "quaylink",
+          "quaylink",
+          "quaylink",
+          "quaylink",
+          "quaylink",
+          "quaylink",
+          "quaylink"
+        ],
+        "mismatch_image_id": 575372
+      },
+      {
+        "question_id": 533107009,
+        "image_id": 533107,
+        "target": "plymouth",
+        "canonical": "plymouth",
+        "votes": 8,
+        "answers": [
+          "plymouth",
+          "plymouth in your portal",
+          "plymouth",
+          "plymouth",
+          "plymouth in your pocket",
+          "plymouth",
+          "plymouth",
+          "plymouth",
+          "plymouth",
+          "plymouth"
+        ],
+        "mismatch_image_id": 433483
+      }
+    ]
+  },
+  {
+    "pair_id": "422025006_34167002",
+    "answer_type": "other",
+    "question": "What white object is coming toward the camera?",
+    "items": [
+      {
+        "question_id": 422025006,
+        "image_id": 422025,
+        "target": "frisbee",
+        "canonical": "frisbee",
+        "votes": 10,
+        "answers": [
+          "frisbee",
+          "frisbee",
+          "frisbee",
+          "frisbee",
+          "frisbee",
+          "frisbee",
+          "frisbee",
+          "frisbee",
+          "frisbee",
+          "frisbee"
+        ],
+        "mismatch_image_id": 207785
+      },
+      {
+        "question_id": 34167002,
+        "image_id": 34167,
+        "target": "kite",
+        "canonical": "kite",
+        "votes": 10,
+        "answers": [
+          "kite",
+          "kite",
+          "kite",
+          "kite",
+          "kite",
+          "kite",
+          "kite",
+          "kite",
+          "kite",
+          "kite"
+        ],
+        "mismatch_image_id": 141135
+      }
+    ]
+  },
+  {
+    "pair_id": "376185001_558213008",
+    "answer_type": "other",
+    "question": "What color is the boy's shirt?",
+    "items": [
+      {
+        "question_id": 376185001,
+        "image_id": 376185,
+        "target": "blue",
+        "canonical": "blue",
+        "votes": 9,
+        "answers": [
+          "blue, white",
+          "blue",
+          "blue",
+          "blue",
+          "blue",
+          "blue",
+          "blue",
+          "blue",
+          "blue",
+          "blue"
+        ],
+        "mismatch_image_id": 316123
+      },
+      {
+        "question_id": 558213008,
+        "image_id": 558213,
+        "target": "black",
+        "canonical": "black",
+        "votes": 10,
+        "answers": [
+          "black",
+          "black",
+          "black",
+          "black",
+          "black",
+          "black",
+          "black",
+          "black",
+          "black",
+          "black"
+        ],
+        "mismatch_image_id": 401244
+      }
+    ]
+  },
+  {
+    "pair_id": "67307006_450247004",
+    "answer_type": "other",
+    "question": "What color is the suitcase?",
+    "items": [
+      {
+        "question_id": 67307006,
+        "image_id": 67307,
+        "target": "black",
+        "canonical": "black",
+        "votes": 10,
+        "answers": [
+          "black",
+          "black",
+          "black",
+          "black",
+          "black",
+          "black",
+          "black",
+          "black",
+          "black",
+          "black"
+        ],
+        "mismatch_image_id": 493695
+      },
+      {
+        "question_id": 450247004,
+        "image_id": 450247,
+        "target": "blue",
+        "canonical": "blue",
+        "votes": 10,
+        "answers": [
+          "blue",
+          "blue",
+          "blue",
+          "blue",
+          "blue",
+          "blue",
+          "blue",
+          "blue",
+          "blue",
+          "blue"
+        ],
+        "mismatch_image_id": 187495
+      }
+    ]
+  },
+  {
+    "pair_id": "452793001_538589003",
+    "answer_type": "other",
+    "question": "What room of the house is this?",
+    "items": [
+      {
+        "question_id": 452793001,
+        "image_id": 452793,
+        "target": "kitchen",
+        "canonical": "kitchen",
+        "votes": 10,
+        "answers": [
+          "kitchen",
+          "kitchen",
+          "kitchen",
+          "kitchen",
+          "kitchen",
+          "kitchen",
+          "kitchen",
+          "kitchen",
+          "kitchen",
+          "kitchen"
+        ],
+        "mismatch_image_id": 570643
+      },
+      {
+        "question_id": 538589003,
+        "image_id": 538589,
+        "target": "bathroom",
+        "canonical": "bathroom",
+        "votes": 10,
+        "answers": [
+          "bathroom",
+          "bathroom",
+          "bathroom",
+          "bathroom",
+          "bathroom",
+          "bathroom",
+          "bathroom",
+          "bathroom",
+          "bathroom",
+          "bathroom"
+        ],
+        "mismatch_image_id": 489764
+      }
+    ]
+  },
+  {
+    "pair_id": "336001002_502141000",
+    "answer_type": "other",
+    "question": "What are the buildings made of?",
+    "items": [
+      {
+        "question_id": 336001002,
+        "image_id": 336001,
+        "target": "brick",
+        "canonical": "brick",
+        "votes": 8,
+        "answers": [
+          "brick",
+          "brick",
+          "brick",
+          "bricks",
+          "brick",
+          "bricks",
+          "brick",
+          "brick",
+          "brick",
+          "brick"
+        ],
+        "mismatch_image_id": 42711
+      },
+      {
+        "question_id": 502141000,
+        "image_id": 502141,
+        "target": "wood",
+        "canonical": "wood",
+        "votes": 10,
+        "answers": [
+          "wood",
+          "wood",
+          "wood",
+          "wood",
+          "wood",
+          "wood",
+          "wood",
+          "wood",
+          "wood",
+          "wood"
+        ],
+        "mismatch_image_id": 254931
+      }
+    ]
+  },
+  {
+    "pair_id": "94940001_187565000",
+    "answer_type": "other",
+    "question": "What color is the vase?",
+    "items": [
+      {
+        "question_id": 94940001,
+        "image_id": 94940,
+        "target": "red",
+        "canonical": "red",
+        "votes": 10,
+        "answers": [
+          "red",
+          "red",
+          "red",
+          "red",
+          "red",
+          "red",
+          "red",
+          "red",
+          "red",
+          "red"
+        ],
+        "mismatch_image_id": 32510
+      },
+      {
+        "question_id": 187565000,
+        "image_id": 187565,
+        "target": "black",
+        "canonical": "black",
+        "votes": 8,
+        "answers": [
+          "black",
+          "brown",
+          "black",
+          "black",
+          "black",
+          "black",
+          "brown",
+          "black",
+          "black",
+          "black"
+        ],
+        "mismatch_image_id": 105668
+      }
+    ]
+  },
+  {
+    "pair_id": "345294000_58778000",
+    "answer_type": "other",
+    "question": "Was the camera lower or higher than the skater?",
+    "items": [
+      {
+        "question_id": 345294000,
+        "image_id": 345294,
+        "target": "lower",
+        "canonical": "lower",
+        "votes": 9,
+        "answers": [
+          "lower",
+          "lower",
+          "lower",
+          "lower",
+          "lower",
+          "higher",
+          "lower",
+          "lower",
+          "lower",
+          "lower"
+        ],
+        "mismatch_image_id": 91636
+      },
+      {
+        "question_id": 58778000,
+        "image_id": 58778,
+        "target": "higher",
+        "canonical": "higher",
+        "votes": 10,
+        "answers": [
+          "higher",
+          "higher",
+          "higher",
+          "higher",
+          "higher",
+          "higher",
+          "higher",
+          "higher",
+          "higher",
+          "higher"
+        ],
+        "mismatch_image_id": 106375
+      }
+    ]
+  },
+  {
+    "pair_id": "316123001_401244001",
+    "answer_type": "other",
+    "question": "What game are the boys playing?",
+    "items": [
+      {
+        "question_id": 316123001,
+        "image_id": 316123,
+        "target": "soccer",
+        "canonical": "soccer",
+        "votes": 10,
+        "answers": [
+          "soccer",
+          "soccer",
+          "soccer",
+          "soccer",
+          "soccer",
+          "soccer",
+          "soccer",
+          "soccer",
+          "soccer",
+          "soccer"
+        ],
+        "mismatch_image_id": 509807
+      },
+      {
+        "question_id": 401244001,
+        "image_id": 401244,
+        "target": "frisbee",
+        "canonical": "frisbee",
+        "votes": 10,
+        "answers": [
+          "frisbee",
+          "frisbee",
+          "frisbee",
+          "frisbee",
+          "frisbee",
+          "frisbee",
+          "frisbee",
+          "frisbee",
+          "frisbee",
+          "frisbee"
+        ],
+        "mismatch_image_id": 369082
+      }
+    ]
+  },
+  {
+    "pair_id": "88556001_298433003",
+    "answer_type": "other",
+    "question": "What color is the plane?",
+    "items": [
+      {
+        "question_id": 88556001,
+        "image_id": 88556,
+        "target": "silver",
+        "canonical": "silver",
+        "votes": 8,
+        "answers": [
+          "silver",
+          "silver",
+          "silver",
+          "silver",
+          "silver",
+          "gray",
+          "silver",
+          "gray",
+          "silver",
+          "silver"
+        ],
+        "mismatch_image_id": 441023
+      },
+      {
+        "question_id": 298433003,
+        "image_id": 298433,
+        "target": "white",
+        "canonical": "white",
+        "votes": 9,
+        "answers": [
+          "white with yellow and blue stripes",
+          "white",
+          "white",
+          "white",
+          "white",
+          "white",
+          "white",
+          "white",
+          "white",
+          "white"
+        ],
+        "mismatch_image_id": 234914
+      }
+    ]
+  },
+  {
+    "pair_id": "527025000_423410009",
+    "answer_type": "other",
+    "question": "Are the doors open or close?",
+    "items": [
+      {
+        "question_id": 527025000,
+        "image_id": 527025,
+        "target": "open",
+        "canonical": "open",
+        "votes": 10,
+        "answers": [
+          "open",
+          "open",
+          "open",
+          "open",
+          "open",
+          "open",
+          "open",
+          "open",
+          "open",
+          "open"
+        ],
+        "mismatch_image_id": 88556
+      },
+      {
+        "question_id": 423410009,
+        "image_id": 423410,
+        "target": "closed",
+        "canonical": "closed",
+        "votes": 9,
+        "answers": [
+          "closed",
+          "closed",
+          "close",
+          "closed",
+          "closed",
+          "closed",
+          "closed",
+          "closed",
+          "closed",
+          "closed"
+        ],
+        "mismatch_image_id": 298433
+      }
+    ]
+  },
+  {
+    "pair_id": "54007002_484331004",
+    "answer_type": "other",
+    "question": "What is the kid holding?",
+    "items": [
+      {
+        "question_id": 54007002,
+        "image_id": 54007,
+        "target": "broken bat",
+        "canonical": "broken bat",
+        "votes": 8,
+        "answers": [
+          "broken bat",
+          "broken bat",
+          "broken bat",
+          "broken bat",
+          "broken baseball bat",
+          "broken bat",
+          "stakes",
+          "broken bat",
+          "broken bat",
+          "broken bat"
+        ],
+        "mismatch_image_id": 336892
+      },
+      {
+        "question_id": 484331004,
+        "image_id": 484331,
+        "target": "bat",
+        "canonical": "bat",
+        "votes": 9,
+        "answers": [
+          "ice cream",
+          "bat",
+          "bat",
+          "bat",
+          "bat",
+          "bat",
+          "bat",
+          "bat",
+          "bat",
+          "bat"
+        ],
+        "mismatch_image_id": 502001
+      }
+    ]
+  },
+  {
+    "pair_id": "389123006_392998007",
+    "answer_type": "other",
+    "question": "What is on his head?",
+    "items": [
+      {
+        "question_id": 389123006,
+        "image_id": 389123,
+        "target": "helmet",
+        "canonical": "helmet",
+        "votes": 8,
+        "answers": [
+          "helmet",
+          "hat",
+          "helmet",
+          "helmet",
+          "helmet",
+          "helmet",
+          "rag",
+          "helmet",
+          "helmet",
+          "helmet"
+        ],
+        "mismatch_image_id": 292916
+      },
+      {
+        "question_id": 392998007,
+        "image_id": 392998,
+        "target": "hair",
+        "canonical": "hair",
+        "votes": 8,
+        "answers": [
+          "hair",
+          "nothing",
+          "hair",
+          "hair",
+          "hair",
+          "hair",
+          "hair",
+          "nothing",
+          "hair",
+          "hair"
+        ],
+        "mismatch_image_id": 464682
+      }
+    ]
+  },
+  {
+    "pair_id": "575372006_433483002",
+    "answer_type": "other",
+    "question": "What is clearly in the sky?",
+    "items": [
+      {
+        "question_id": 575372006,
+        "image_id": 575372,
+        "target": "clouds",
+        "canonical": "clouds",
+        "votes": 9,
+        "answers": [
+          "clouds",
+          "clouds",
+          "clouds",
+          "clouds",
+          "clouds",
+          "clouds",
+          "clouds",
+          "clouds",
+          "clouds",
+          "cloud"
+        ],
+        "mismatch_image_id": 457986
+      },
+      {
+        "question_id": 433483002,
+        "image_id": 433483,
+        "target": "moon",
+        "canonical": "moon",
+        "votes": 9,
+        "answers": [
+          "moon",
+          "moon",
+          "moon",
+          "moon",
+          "moon",
+          "moon",
+          "moon",
+          "moon",
+          "moon crescent",
+          "moon"
+        ],
+        "mismatch_image_id": 520401
+      }
+    ]
+  },
+  {
+    "pair_id": "524665002_526044021",
+    "answer_type": "other",
+    "question": "What kind of animal is this?",
+    "items": [
+      {
+        "question_id": 524665002,
+        "image_id": 524665,
+        "target": "dog",
+        "canonical": "dog",
+        "votes": 9,
+        "answers": [
+          "dog",
+          "black and white",
+          "dog",
+          "dog",
+          "dog",
+          "dog",
+          "dog",
+          "dog",
+          "dog",
+          "dog"
+        ],
+        "mismatch_image_id": 552237
+      },
+      {
+        "question_id": 526044021,
+        "image_id": 526044,
+        "target": "cow",
+        "canonical": "cow",
+        "votes": 10,
+        "answers": [
+          "cow",
+          "cow",
+          "cow",
+          "cow",
+          "cow",
+          "cow",
+          "cow",
+          "cow",
+          "cow",
+          "cow"
+        ],
+        "mismatch_image_id": 551338
+      }
+    ]
+  },
+  {
+    "pair_id": "265574002_50655006",
+    "answer_type": "other",
+    "question": "What color is the towel?",
+    "items": [
+      {
+        "question_id": 265574002,
+        "image_id": 265574,
+        "target": "red",
+        "canonical": "red",
+        "votes": 9,
+        "answers": [
+          "red",
+          "red",
+          "red",
+          "red",
+          "red",
+          "red",
+          "white",
+          "red",
+          "red",
+          "red"
+        ],
+        "mismatch_image_id": 146078
+      },
+      {
+        "question_id": 50655006,
+        "image_id": 50655,
+        "target": "white",
+        "canonical": "white",
+        "votes": 10,
+        "answers": [
+          "white",
+          "white",
+          "white",
+          "white",
+          "white",
+          "white",
+          "white",
+          "white",
+          "white",
+          "white"
+        ],
+        "mismatch_image_id": 243600
+      }
+    ]
+  },
+  {
+    "pair_id": "124803001_103496000",
+    "answer_type": "other",
+    "question": "Is this a boy or girl?",
+    "items": [
+      {
+        "question_id": 124803001,
+        "image_id": 124803,
+        "target": "boy",
+        "canonical": "boy",
+        "votes": 10,
+        "answers": [
+          "boy",
+          "boy",
+          "boy",
+          "boy",
+          "boy",
+          "boy",
+          "boy",
+          "boy",
+          "boy",
+          "boy"
+        ],
+        "mismatch_image_id": 371216
+      },
+      {
+        "question_id": 103496000,
+        "image_id": 103496,
+        "target": "girl",
+        "canonical": "girl",
+        "votes": 10,
+        "answers": [
+          "girl",
+          "girl",
+          "girl",
+          "girl",
+          "girl",
+          "girl",
+          "girl",
+          "girl",
+          "girl",
+          "girl"
+        ],
+        "mismatch_image_id": 179699
+      }
+    ]
+  },
+  {
+    "pair_id": "113736005_569379003",
+    "answer_type": "other",
+    "question": "What animal is the man looking at from the lake?",
+    "items": [
+      {
+        "question_id": 113736005,
+        "image_id": 113736,
+        "target": "bear",
+        "canonical": "bear",
+        "votes": 10,
+        "answers": [
+          "bear",
+          "bear",
+          "bear",
+          "bear",
+          "bear",
+          "bear",
+          "bear",
+          "bear",
+          "bear",
+          "bear"
+        ],
+        "mismatch_image_id": 208050
+      },
+      {
+        "question_id": 569379003,
+        "image_id": 569379,
+        "target": "elephant",
+        "canonical": "elephant",
+        "votes": 10,
+        "answers": [
+          "elephant",
+          "elephant",
+          "elephant",
+          "elephant",
+          "elephant",
+          "elephant",
+          "elephant",
+          "elephant",
+          "elephant",
+          "elephant"
+        ],
+        "mismatch_image_id": 407822
+      }
+    ]
+  },
+  {
+    "pair_id": "144863002_82157045",
+    "answer_type": "other",
+    "question": "What is the man eating?",
+    "items": [
+      {
+        "question_id": 144863002,
+        "image_id": 144863,
+        "target": "hot dog",
+        "canonical": "hot dog",
+        "votes": 9,
+        "answers": [
+          "hot dog",
+          "hot dog",
+          "hot dog",
+          "hot dog",
+          "hot dog",
+          "eating",
+          "hot dog",
+          "hot dog",
+          "hot dog",
+          "hot dog"
+        ],
+        "mismatch_image_id": 384726
+      },
+      {
+        "question_id": 82157045,
+        "image_id": 82157,
+        "target": "donut",
+        "canonical": "donut",
+        "votes": 8,
+        "answers": [
+          "donut",
+          "donut",
+          "donut",
+          "doughnut",
+          "donut",
+          "donut",
+          "donut",
+          "donut",
+          "doughnut",
+          "donut"
+        ],
+        "mismatch_image_id": 64313
+      }
+    ]
+  },
+  {
+    "pair_id": "248786002_69568014",
+    "answer_type": "other",
+    "question": "What color are the plates?",
+    "items": [
+      {
+        "question_id": 248786002,
+        "image_id": 248786,
+        "target": "white",
+        "canonical": "white",
+        "votes": 8,
+        "answers": [
+          "white",
+          "white",
+          "white",
+          "color of plates are white",
+          "white",
+          "white",
+          "white",
+          "tan",
+          "white",
+          "white"
+        ],
+        "mismatch_image_id": 78032
+      },
+      {
+        "question_id": 69568014,
+        "image_id": 69568,
+        "target": "red",
+        "canonical": "red",
+        "votes": 10,
+        "answers": [
+          "red",
+          "red",
+          "red",
+          "red",
+          "red",
+          "red",
+          "red",
+          "red",
+          "red",
+          "red"
+        ],
+        "mismatch_image_id": 282046
+      }
+    ]
+  },
+  {
+    "pair_id": "515355001_241149003",
+    "answer_type": "other",
+    "question": "What utensil is shown?",
+    "items": [
+      {
+        "question_id": 515355001,
+        "image_id": 515355,
+        "target": "fork",
+        "canonical": "fork",
+        "votes": 10,
+        "answers": [
+          "fork",
+          "fork",
+          "fork",
+          "fork",
+          "fork",
+          "fork",
+          "fork",
+          "fork",
+          "fork",
+          "fork"
+        ],
+        "mismatch_image_id": 245311
+      },
+      {
+        "question_id": 241149003,
+        "image_id": 241149,
+        "target": "spoon",
+        "canonical": "spoon",
+        "votes": 10,
+        "answers": [
+          "spoon",
+          "spoon",
+          "spoon",
+          "spoon",
+          "spoon",
+          "spoon",
+          "spoon",
+          "spoon",
+          "spoon",
+          "spoon"
+        ],
+        "mismatch_image_id": 257336
+      }
+    ]
+  },
+  {
+    "pair_id": "334222001_323668010",
+    "answer_type": "other",
+    "question": "Is he wearing pants or shorts?",
+    "items": [
+      {
+        "question_id": 334222001,
+        "image_id": 334222,
+        "target": "shorts",
+        "canonical": "shorts",
+        "votes": 10,
+        "answers": [
+          "shorts",
+          "shorts",
+          "shorts",
+          "shorts",
+          "shorts",
+          "shorts",
+          "shorts",
+          "shorts",
+          "shorts",
+          "shorts"
+        ],
+        "mismatch_image_id": 148526
+      },
+      {
+        "question_id": 323668010,
+        "image_id": 323668,
+        "target": "pants",
+        "canonical": "pants",
+        "votes": 10,
+        "answers": [
+          "pants",
+          "pants",
+          "pants",
+          "pants",
+          "pants",
+          "pants",
+          "pants",
+          "pants",
+          "pants",
+          "pants"
+        ],
+        "mismatch_image_id": 487450
+      }
+    ]
+  },
+  {
+    "pair_id": "476710000_434735012",
+    "answer_type": "other",
+    "question": "What is the animal in the middle of the screen?",
+    "items": [
+      {
+        "question_id": 476710000,
+        "image_id": 476710,
+        "target": "horse",
+        "canonical": "horse",
+        "votes": 10,
+        "answers": [
+          "horse",
+          "horse",
+          "horse",
+          "horse",
+          "horse",
+          "horse",
+          "horse",
+          "horse",
+          "horse",
+          "horse"
+        ],
+        "mismatch_image_id": 68546
+      },
+      {
+        "question_id": 434735012,
+        "image_id": 434735,
+        "target": "giraffe",
+        "canonical": "giraffe",
+        "votes": 10,
+        "answers": [
+          "giraffe",
+          "giraffe",
+          "giraffe",
+          "giraffe",
+          "giraffe",
+          "giraffe",
+          "giraffe",
+          "giraffe",
+          "giraffe",
+          "giraffe"
+        ],
+        "mismatch_image_id": 537860
+      }
+    ]
+  },
+  {
+    "pair_id": "164635000_66468000",
+    "answer_type": "other",
+    "question": "What is being used to cut the pizza?",
+    "items": [
+      {
+        "question_id": 164635000,
+        "image_id": 164635,
+        "target": "scissors",
+        "canonical": "scissors",
+        "votes": 8,
+        "answers": [
+          "scissor",
+          "scissors",
+          "shears",
+          "scissors",
+          "scissors",
+          "scissors",
+          "scissors",
+          "scissors",
+          "scissors",
+          "scissors"
+        ],
+        "mismatch_image_id": 340327
+      },
+      {
+        "question_id": 66468000,
+        "image_id": 66468,
+        "target": "knife",
+        "canonical": "knife",
+        "votes": 10,
+        "answers": [
+          "knife",
+          "knife",
+          "knife",
+          "knife",
+          "knife",
+          "knife",
+          "knife",
+          "knife",
+          "knife",
+          "knife"
+        ],
+        "mismatch_image_id": 527906
+      }
+    ]
+  },
+  {
+    "pair_id": "52982000_561856002",
+    "answer_type": "other",
+    "question": "What color is the balloon?",
+    "items": [
+      {
+        "question_id": 52982000,
+        "image_id": 52982,
+        "target": "blue",
+        "canonical": "blue",
+        "votes": 9,
+        "answers": [
+          "blue",
+          "blue",
+          "balloon",
+          "blue",
+          "blue",
+          "blue",
+          "blue",
+          "blue",
+          "blue",
+          "blue"
+        ],
+        "mismatch_image_id": 334222
+      },
+      {
+        "question_id": 561856002,
+        "image_id": 561856,
+        "target": "red",
+        "canonical": "red",
+        "votes": 10,
+        "answers": [
+          "red",
+          "red",
+          "red",
+          "red",
+          "red",
+          "red",
+          "red",
+          "red",
+          "red",
+          "red"
+        ],
+        "mismatch_image_id": 323668
+      }
+    ]
+  },
+  {
+    "pair_id": "574977001_88360004",
+    "answer_type": "other",
+    "question": "What game are they playing?",
+    "items": [
+      {
+        "question_id": 574977001,
+        "image_id": 574977,
+        "target": "baseball",
+        "canonical": "baseball",
+        "votes": 9,
+        "answers": [
+          "baseball",
+          "baseball",
+          "baseball",
+          "baseball",
+          "baseball",
+          "softball",
+          "baseball",
+          "baseball",
+          "baseball",
+          "baseball"
+        ],
+        "mismatch_image_id": 403943
+      },
+      {
+        "question_id": 88360004,
+        "image_id": 88360,
+        "target": "frisbee",
+        "canonical": "frisbee",
+        "votes": 10,
+        "answers": [
+          "frisbee",
+          "frisbee",
+          "frisbee",
+          "frisbee",
+          "frisbee",
+          "frisbee",
+          "frisbee",
+          "frisbee",
+          "frisbee",
+          "frisbee"
+        ],
+        "mismatch_image_id": 98187
+      }
+    ]
+  },
+  {
+    "pair_id": "340327002_527906003",
+    "answer_type": "other",
+    "question": "What is in the vase?",
+    "items": [
+      {
+        "question_id": 340327002,
+        "image_id": 340327,
+        "target": "flowers",
+        "canonical": "flowers",
+        "votes": 10,
+        "answers": [
+          "flowers",
+          "flowers",
+          "flowers",
+          "flowers",
+          "flowers",
+          "flowers",
+          "flowers",
+          "flowers",
+          "flowers",
+          "flowers"
+        ],
+        "mismatch_image_id": 476710
+      },
+      {
+        "question_id": 527906003,
+        "image_id": 527906,
+        "target": "plant",
+        "canonical": "plant",
+        "votes": 8,
+        "answers": [
+          "candle",
+          "plant",
+          "plant",
+          "plant",
+          "flower",
+          "plant",
+          "plant",
+          "plant",
+          "plant",
+          "plant"
+        ],
+        "mismatch_image_id": 434735
+      }
+    ]
+  },
+  {
+    "pair_id": "292916000_464682029",
+    "answer_type": "other",
+    "question": "What is the meat wrapped in?",
+    "items": [
+      {
+        "question_id": 292916000,
+        "image_id": 292916,
+        "target": "bacon",
+        "canonical": "bacon",
+        "votes": 10,
+        "answers": [
+          "bacon",
+          "bacon",
+          "bacon",
+          "bacon",
+          "bacon",
+          "bacon",
+          "bacon",
+          "bacon",
+          "bacon",
+          "bacon"
+        ],
+        "mismatch_image_id": 111535
+      },
+      {
+        "question_id": 464682029,
+        "image_id": 464682,
+        "target": "bread",
+        "canonical": "bread",
+        "votes": 8,
+        "answers": [
+          "bread",
+          "bread",
+          "bread",
+          "bread",
+          "sauerkraut",
+          "bread",
+          "bread",
+          "bread",
+          "bread",
+          "sandwich bread"
+        ],
+        "mismatch_image_id": 104982
+      }
+    ]
+  }
+]

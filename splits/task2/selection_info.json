@@ -1,0 +1,74 @@
+{
+  "seed": 6304,
+  "caption_train": {
+    "images": 6000,
+    "examples": 18000
+  },
+  "vqa_train2014": {
+    "pairs": 200394,
+    "low_agreement": 119896,
+    "same_answer": 7086,
+    "kept": 71969,
+    "type_mismatch": 1443,
+    "kept_other": 17375,
+    "kept_yes/no": 44033,
+    "kept_number": 10561
+  },
+  "grounding_train": {
+    "presence_pairs": 6712,
+    "presence_categories": 80,
+    "counting_pairs": 4379,
+    "counting_categories": 73,
+    "counting_answers": {
+      "4": 1481,
+      "2": 2483,
+      "1": 2804,
+      "3": 1990
+    },
+    "image_pool": 8749
+  },
+  "vqa_val2014": {
+    "pairs": 95144,
+    "kept": 33925,
+    "low_agreement": 57047,
+    "same_answer": 3378,
+    "type_mismatch": 794,
+    "kept_yes/no": 20963,
+    "kept_other": 8039,
+    "kept_number": 4923
+  },
+  "eval": {
+    "captions_dev": 96,
+    "grounding_dev": 48,
+    "grounding_test": 128,
+    "vqa_dev": 64,
+    "vqa_test": 192
+  },
+  "eval_pairs": {
+    "grounding_dev": 24,
+    "grounding_test": 64,
+    "vqa_dev": 32,
+    "vqa_test": 96
+  },
+  "images": {
+    "train2014": 8749,
+    "val2014": 528
+  },
+  "rules": {
+    "caption_prompt": "Describe the image in one sentence.",
+    "qa_suffix": "Answer the question using a single word or phrase.",
+    "token_caps": {
+      "question": 80,
+      "caption": 64,
+      "answer": 16
+    },
+    "presence_positive": "non-crowd instance with area >= 1% of the image",
+    "presence_negative": "no annotation of the category and no caption word matching it",
+    "counting": "1-4 instances, none crowd, all with area >= 1024 px; skipped for ['broccoli', 'scissors', 'skis']",
+    "train_caps_per_category": {
+      "presence": 100,
+      "counting": 60
+    },
+    "vqa": "complementary pairs, same answer type, both consensus answers >= 8/10 votes and different"
+  }
+}
