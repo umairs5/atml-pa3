@@ -27,6 +27,7 @@ Raw datasets and checkpoints are not in the repo; the scripts download what they
 | Build an eval model (merge adapters / fp16 export) | `python -m task1.merge --run_dir RUNS/<run> --update 1250 --out EVAL/<condition>` |
 | Benchmarks | `python -m task1.evaluate --model EVAL/<condition> --name <condition> --out RESULTS/lm_eval` |
 | Results table | `python -m task1.summarize_eval --lm_eval_dir RESULTS/lm_eval --out RESULTS` |
+| Paired tests (bootstrap + McNemar), BoolQ yes-rate | `python -m task1.significance --lm_eval_dir RESULTS/lm_eval --out RESULTS` |
 | Weight / activation diagnostics | `python -m task1.diagnostics --runs_dir RUNS --out RESULTS/diagnostics` |
 | Qualitative responses | `python -m task1.qualitative --eval_dir EVAL --out RESULTS/qualitative` |
 | Learning curves | `python -m task1.plot_curves --runs_dir RUNS --out RESULTS/figures` |
@@ -48,10 +49,16 @@ LoRA and OPLoRA are implemented in `common/lora.py` (not peft), so that LoRA-16 
 | Train all three stages (resumable) | `python -m task2.train --config task2/configs/vlm196.yaml --features FEATS --out_root RUNS` |
 | Evaluate a stage under the four image conditions | `python -m task2.evaluate --run_dir RUNS/vlm196 --stage 3 --features FEATS --out RESULTS/vlm196/test_stage3` |
 | Tables, bootstrap intervals, curves, examples | `python -m task2.analyze --res RESULTS/vlm196 --images IMAGES` |
+| 49 vs 196 tokens on the same test pairs | `python -m task2.compare_runs --a RESULTS/vlm196 --b RESULTS/vlm49 --out RESULTS/comparison_49_vs_196.csv` |
 
 `notebooks/task2_colab.ipynb` runs these steps on Colab. `splits/task2/` holds every selected image, caption, question and pair id, the generated grounding pairs and the fixed mismatched-image mapping; `selection_info.json` lists the filtering rules and counts. `task2/configs/vlm49.yaml` is the optional 49-token run.
 
 `tests/test_vlm.py` checks the prompt layout, the 2x2 pooling, that gradients reach the connector while Qwen stays frozen, and that the cached greedy decoding loop matches `generate` with and without left padding.
+
+## Results
+
+`results/task1/` and `results/task2/` hold the outputs of the runs reported in the paper (tables, logs, per-question scores, figures).
+The raw lm-eval sample logs are not committed because of their size; `results/task1/per_question.csv` has the per-question correctness for every condition, which is all the significance tests use.
 
 ## External code and data
 

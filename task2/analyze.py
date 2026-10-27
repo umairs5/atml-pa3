@@ -150,22 +150,35 @@ def pick_examples(rows, per_group=2):
 
 
 def example_figure(examples, images, out):
+    """First example of each group: one row per suite, each pair shown as its two images side by side."""
+    import textwrap
     from PIL import Image
-    items = [(suite, g, ex) for suite, gs in examples.items() for g, exs in gs.items() for ex in exs]
-    if not items:
-        return
-    fig, axes = plt.subplots(len(items), 2, figsize=(7, 3.0 * len(items)))
+    suites = list(examples)
+    groups = list(next(iter(examples.values())))
+    fig, axes = plt.subplots(len(suites), len(groups), figsize=(4.4 * len(groups), 3.6 * len(suites)))
     axes = np.atleast_2d(axes)
-    for row, (suite, g, ex) in enumerate(items):
-        for s in [0, 1]:
-            a = axes[row, s]
-            side = ex["sides"][s]
-            path = os.path.join(images, "val2014", f"COCO_val2014_{side['image_id']:012d}.jpg")
-            if os.path.exists(path):
-                a.imshow(Image.open(path).convert("RGB"))
-            a.axis("off")
-            a.set_title(f"ref: {side['reference']} | pred: {side['correct']} | swap: {side['complementary']}", fontsize=7)
-        axes[row, 0].text(0, -0.25, f"[{suite}, {g}] {ex['question']}", transform=axes[row, 0].transAxes, fontsize=7)
+    for r, suite in enumerate(suites):
+        for k, g in enumerate(groups):
+            a = axes[r, k]
+            a.set_xticks([])
+            a.set_yticks([])
+            exs = examples[suite][g]
+            if not exs:
+                a.axis("off")
+                continue
+            ex = exs[0]
+            canvas = Image.new("RGB", (2 * 224 + 12, 224), "white")
+            for s, side in enumerate(ex["sides"]):
+                path = os.path.join(images, "val2014", f"COCO_val2014_{side['image_id']:012d}.jpg")
+                if os.path.exists(path):
+                    canvas.paste(Image.open(path).convert("RGB").resize((224, 224)), (s * 236, 0))
+            a.imshow(canvas)
+            for sp in a.spines.values():
+                sp.set_visible(False)
+            a.set_title(f"{suite.split('_')[0]}: {g.replace('_', ' ')}\n" + textwrap.fill(ex["question"], 48),
+                        fontsize=9)
+            lab = ["ref {reference} | pred {correct} | swap {complementary}".format(**sd) for sd in ex["sides"]]
+            a.set_xlabel(f"L: {lab[0]}\nR: {lab[1]}", fontsize=8.5)
     fig.tight_layout()
     for ext in ["pdf", "png"]:
         fig.savefig(os.path.join(out, f"task2_examples.{ext}"), dpi=150)

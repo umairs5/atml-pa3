@@ -10,6 +10,9 @@ runs/
 *.pt
 *.safetensors
 wandb/
+# raw lm-eval sample logs (~400 MB); per_question.csv keeps the per-question scores
+results/task1/lm_eval/**/samples_*.jsonl
+results/task1/lm_eval/**/cache/
 
 # python
 __pycache__/
