@@ -1,0 +1,109 @@
+{
+  "splits": {
+    "train_images": 8749,
+    "eval_images": {
+      "captions_dev": 96,
+      "grounding_dev": 48,
+      "grounding_test": 128,
+      "vqa_dev": 64,
+      "vqa_test": 192
+    },
+    "train_eval_overlap": {
+      "captions_dev": 0,
+      "grounding_dev": 0,
+      "grounding_test": 0,
+      "vqa_dev": 0,
+      "vqa_test": 0
+    },
+    "eval_eval_overlap": {
+      "captions_dev|grounding_dev": 0,
+      "captions_dev|grounding_test": 0,
+      "captions_dev|vqa_dev": 0,
+      "captions_dev|vqa_test": 0,
+      "grounding_dev|grounding_test": 0,
+      "grounding_dev|vqa_dev": 0,
+      "grounding_dev|vqa_test": 0,
+      "grounding_test|vqa_dev": 0,
+      "grounding_test|vqa_test": 0,
+      "vqa_dev|vqa_test": 0
+    },
+    "mismatch_violations": 0,
+    "sizes": {
+      "captions_train": 18000,
+      "captions_dev": 96,
+      "grounding_train_presence": 6712,
+      "grounding_train_counting": 4379,
+      "grounding_dev": 24,
+      "grounding_test": 64,
+      "vqa_train": 1536,
+      "vqa_dev": 32,
+      "vqa_test": 96
+    },
+    "ok": true
+  },
+  "features": {
+    "shape": [
+      9277,
+      196,
+      768
+    ],
+    "dtype": "float16",
+    "post_layernorm_applied_once": true,
+    "finite": true,
+    "mean_token_norm_first_256": 62.17021942138672
+  },
+  "stage1_params": {
+    "trainable": 1837056,
+    "frozen": 596049920,
+    "trainable_groups": [
+      "connector"
+    ],
+    "trainable_dtypes": [
+      "torch.float32"
+    ],
+    "frozen_dtypes": [
+      "torch.float16"
+    ],
+    "only_connector_or_lora": true
+  },
+  "stage1_grad": {
+    "loss": 9.528209686279297,
+    "connector_grad_norms": {
+      "fc1.weight": 334.2889099121094,
+      "fc1.bias": 6.3358283042907715,
+      "fc2.weight": 381.4063415527344,
+      "fc2.bias": 17.330236434936523
+    },
+    "frozen_params_with_grad": 0,
+    "lora_params_with_grad": 0,
+    "ok": true
+  },
+  "stage2_params": {
+    "trainable": 6424576,
+    "frozen": 596049920,
+    "trainable_groups": [
+      "connector",
+      "lora_A",
+      "lora_B"
+    ],
+    "trainable_dtypes": [
+      "torch.float32"
+    ],
+    "frozen_dtypes": [
+      "torch.float16"
+    ],
+    "only_connector_or_lora": true
+  },
+  "stage2_grad": {
+    "loss": 9.528209686279297,
+    "connector_grad_norms": {
+      "fc1.weight": 334.268798828125,
+      "fc1.bias": 6.330148696899414,
+      "fc2.weight": 381.40045166015625,
+      "fc2.bias": 17.30308723449707
+    },
+    "frozen_params_with_grad": 0,
+    "lora_params_with_grad": 224,
+    "ok": true
+  }
+}

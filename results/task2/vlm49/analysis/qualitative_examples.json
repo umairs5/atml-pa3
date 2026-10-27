@@ -1,0 +1,294 @@
+{
+  "grounding_test": {
+    "image_sensitive": [
+      {
+        "pair_id": "test_pres_000",
+        "question": "Does this image contain a pizza?",
+        "qtype": "presence",
+        "sides": [
+          {
+            "image_id": 343455,
+            "reference": "yes",
+            "correct": "yes",
+            "complementary": "no",
+            "mismatched": "no",
+            "none": "yes"
+          },
+          {
+            "image_id": 341603,
+            "reference": "no",
+            "correct": "no",
+            "complementary": "yes",
+            "mismatched": "yes",
+            "none": "yes"
+          }
+        ]
+      },
+      {
+        "pair_id": "test_coun_052",
+        "question": "How many motorcycles can you see?",
+        "qtype": "counting",
+        "sides": [
+          {
+            "image_id": 313948,
+            "reference": "2",
+            "correct": "2",
+            "complementary": "1",
+            "mismatched": "0",
+            "none": "1"
+          },
+          {
+            "image_id": 321107,
+            "reference": "1",
+            "correct": "1",
+            "complementary": "2",
+            "mismatched": "1",
+            "none": "1"
+          }
+        ]
+      }
+    ],
+    "same_answer_both_images": [
+      {
+        "pair_id": "test_pres_003",
+        "question": "Does this image contain an umbrella?",
+        "qtype": "presence",
+        "sides": [
+          {
+            "image_id": 435820,
+            "reference": "yes",
+            "correct": "no",
+            "complementary": "no",
+            "mismatched": "no",
+            "none": "yes"
+          },
+          {
+            "image_id": 352194,
+            "reference": "no",
+            "correct": "no",
+            "complementary": "no",
+            "mismatched": "no",
+            "none": "yes"
+          }
+        ]
+      },
+      {
+        "pair_id": "test_coun_041",
+        "question": "How many wine glasses can you see?",
+        "qtype": "counting",
+        "sides": [
+          {
+            "image_id": 581683,
+            "reference": "2",
+            "correct": "2",
+            "complementary": "2",
+            "mismatched": "2",
+            "none": "1"
+          },
+          {
+            "image_id": 16382,
+            "reference": "3",
+            "correct": "2",
+            "complementary": "2",
+            "mismatched": "1",
+            "none": "1"
+          }
+        ]
+      }
+    ],
+    "unsupported_swap": [
+      {
+        "pair_id": "test_coun_058",
+        "question": "How many bears can you see?",
+        "qtype": "counting",
+        "sides": [
+          {
+            "image_id": 81081,
+            "reference": "3",
+            "correct": "2",
+            "complementary": "4",
+            "mismatched": "2",
+            "none": "1"
+          },
+          {
+            "image_id": 357219,
+            "reference": "4",
+            "correct": "4",
+            "complementary": "2",
+            "mismatched": "1",
+            "none": "1"
+          }
+        ]
+      },
+      {
+        "pair_id": "test_coun_034",
+        "question": "How many refrigerators can you see?",
+        "qtype": "counting",
+        "sides": [
+          {
+            "image_id": 506748,
+            "reference": "2",
+            "correct": "1",
+            "complementary": "2",
+            "mismatched": "1",
+            "none": "1"
+          },
+          {
+            "image_id": 465069,
+            "reference": "3",
+            "correct": "2",
+            "complementary": "1",
+            "mismatched": "1",
+            "none": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "vqa_test": {
+    "image_sensitive": [
+      {
+        "pair_id": "124803001_103496000",
+        "question": "Is this a boy or girl?",
+        "qtype": "other",
+        "sides": [
+          {
+            "image_id": 124803,
+            "reference": "boy",
+            "correct": "boy",
+            "complementary": "girl",
+            "mismatched": "boy",
+            "none": "girl"
+          },
+          {
+            "image_id": 103496,
+            "reference": "girl",
+            "correct": "girl",
+            "complementary": "boy",
+            "mismatched": "boy",
+            "none": "girl"
+          }
+        ]
+      },
+      {
+        "pair_id": "441023002_234914032",
+        "question": "Is there a blue crab painted?",
+        "qtype": "yes/no",
+        "sides": [
+          {
+            "image_id": 441023,
+            "reference": "yes",
+            "correct": "yes",
+            "complementary": "no",
+            "mismatched": "no",
+            "none": "yes"
+          },
+          {
+            "image_id": 234914,
+            "reference": "no",
+            "correct": "no",
+            "complementary": "yes",
+            "mismatched": "no",
+            "none": "yes"
+          }
+        ]
+      }
+    ],
+    "same_answer_both_images": [
+      {
+        "pair_id": "142249004_61175001",
+        "question": "What number is on the shirt?",
+        "qtype": "number",
+        "sides": [
+          {
+            "image_id": 142249,
+            "reference": "23",
+            "correct": "1",
+            "complementary": "1",
+            "mismatched": "12",
+            "none": "1"
+          },
+          {
+            "image_id": 61175,
+            "reference": "19",
+            "correct": "1",
+            "complementary": "1",
+            "mismatched": "123456789",
+            "none": "1"
+          }
+        ]
+      },
+      {
+        "pair_id": "78032003_282046025",
+        "question": "Is there a white and red sign?",
+        "qtype": "yes/no",
+        "sides": [
+          {
+            "image_id": 78032,
+            "reference": "yes",
+            "correct": "no",
+            "complementary": "no",
+            "mismatched": "no",
+            "none": "no"
+          },
+          {
+            "image_id": 282046,
+            "reference": "no",
+            "correct": "no",
+            "complementary": "no",
+            "mismatched": "yes",
+            "none": "no"
+          }
+        ]
+      }
+    ],
+    "unsupported_swap": [
+      {
+        "pair_id": "527025000_423410009",
+        "question": "Are the doors open or close?",
+        "qtype": "other",
+        "sides": [
+          {
+            "image_id": 527025,
+            "reference": "open",
+            "correct": "close",
+            "complementary": "open",
+            "mismatched": "close",
+            "none": "open"
+          },
+          {
+            "image_id": 423410,
+            "reference": "closed",
+            "correct": "open",
+            "complementary": "close",
+            "mismatched": "close",
+            "none": "open"
+          }
+        ]
+      },
+      {
+        "pair_id": "315173001_450206009",
+        "question": "What is written on the bus?",
+        "qtype": "other",
+        "sides": [
+          {
+            "image_id": 315173,
+            "reference": "crude",
+            "correct": "no photos",
+            "complementary": "no",
+            "mismatched": "no",
+            "none": "no"
+          },
+          {
+            "image_id": 450206,
+            "reference": "green tortoise",
+            "correct": "no",
+            "complementary": "no photos",
+            "mismatched": "no",
+            "none": "no"
+          }
+        ]
+      }
+    ]
+  }
+}

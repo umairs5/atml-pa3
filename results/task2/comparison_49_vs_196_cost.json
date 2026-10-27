@@ -1,0 +1,16 @@
+{
+ "a": {
+  "run": "vlm196",
+  "train_minutes": 103.11323988835017,
+  "peak_mem_reserved_gb": 1.7890625,
+  "test_generation_seconds": 52.06513857841492,
+  "ms_per_answer": 40.675889514386654
+ },
+ "b": {
+  "run": "vlm49",
+  "train_minutes": 45.33932542800903,
+  "peak_mem_reserved_gb": 1.7890625,
+  "test_generation_seconds": 27.828269004821777,
+  "ms_per_answer": 21.740835160017014
+ }
+}

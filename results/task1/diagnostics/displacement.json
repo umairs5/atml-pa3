@@ -1,0 +1,26 @@
+{
+  "full_mid": {
+    "l2": 10.016986586527556,
+    "n_tensors": 310,
+    "only_in_trained": [],
+    "only_in_base": [
+      "lm_head.weight"
+    ]
+  },
+  "full_final": {
+    "l2": 10.654538656595589,
+    "n_tensors": 310,
+    "only_in_trained": [],
+    "only_in_base": [
+      "lm_head.weight"
+    ]
+  },
+  "l2sp_final": {
+    "l2": 6.276899564773836,
+    "n_tensors": 310,
+    "only_in_trained": [],
+    "only_in_base": [
+      "lm_head.weight"
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "name": "vlm49",
+  "seed": 6304,
+  "visual_tokens": 49,
+  "micro_batch": 8,
+  "grad_accum": 2,
+  "weight_decay": 0.01,
+  "clip": 1.0,
+  "warmup_frac": 0.05,
+  "min_lr_frac": 0.1,
+  "save_every": 250,
+  "eval_every": 500,
+  "lora": {
+    "r": 16,
+    "alpha": 32,
+    "dropout": 0.05,
+    "targets": [
+      "q_proj",
+      "k_proj",
+      "v_proj",
+      "o_proj"
+    ]
+  },
+  "stages": [
+    {
+      "name": "caption_alignment",
+      "updates": 2250,
+      "connector_lr": 0.001,
+      "mixture": "passes"
+    },
+    {
+      "name": "visual_instruction",
+      "updates": 1500,
+      "connector_lr": 0.0001,
+      "lora_lr": 2e-05,
+      "mixture": {
+        "presence": 0.5,
+        "counting": 0.25,
+        "caption": 0.25
+      }
+    },
+    {
+      "name": "natural_vqa",
+      "updates": 750,
+      "connector_lr": 5e-05,
+      "lora_lr": 1e-05,
+      "mixture": {
+        "vqa": 0.7,
+        "presence": 0.1,
+        "counting": 0.1,
+        "caption": 0.1
+      }
+    }
+  ]
+}

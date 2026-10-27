@@ -1,0 +1,116 @@
+{
+  "run": "vlm196",
+  "stage": 3,
+  "grounding_test": {
+    "correct": {
+      "n": 128,
+      "accuracy": 0.6953125,
+      "pair_accuracy": 0.5,
+      "identical_answer_rate": 0.203125,
+      "empty_rate": 0.0,
+      "follows_partner_rate": 0.109375,
+      "truncated_rate": 0.0,
+      "mean_nll": 0.7121483619375795,
+      "gen_seconds_per_answer": 0.03860895847901702,
+      "accuracy_counting": 0.4375,
+      "accuracy_presence": 0.953125
+    },
+    "complementary": {
+      "n": 128,
+      "accuracy": 0.109375,
+      "pair_accuracy": 0.0,
+      "identical_answer_rate": 0.203125,
+      "empty_rate": 0.0,
+      "follows_partner_rate": 0.6953125,
+      "truncated_rate": 0.0,
+      "mean_nll": 3.287221612132271,
+      "gen_seconds_per_answer": 0.03860895847901702,
+      "accuracy_counting": 0.171875,
+      "accuracy_presence": 0.046875
+    },
+    "mismatched": {
+      "n": 128,
+      "accuracy": 0.328125,
+      "pair_accuracy": 0.015625,
+      "identical_answer_rate": 0.703125,
+      "empty_rate": 0.0,
+      "follows_partner_rate": 0.3828125,
+      "truncated_rate": 0.0,
+      "mean_nll": 2.288736868968954,
+      "gen_seconds_per_answer": 0.03860895847901702,
+      "accuracy_counting": 0.21875,
+      "accuracy_presence": 0.4375
+    },
+    "none": {
+      "n": 128,
+      "accuracy": 0.375,
+      "pair_accuracy": 0.0,
+      "identical_answer_rate": 1.0,
+      "empty_rate": 0.0,
+      "follows_partner_rate": 0.375,
+      "truncated_rate": 0.0,
+      "mean_nll": 1.5212729008344468,
+      "gen_seconds_per_answer": 0.03860895847901702,
+      "accuracy_counting": 0.25,
+      "accuracy_presence": 0.5
+    }
+  },
+  "vqa_test": {
+    "correct": {
+      "n": 192,
+      "accuracy": 0.5036458333333332,
+      "pair_accuracy": 0.21875,
+      "identical_answer_rate": 0.5,
+      "empty_rate": 0.0,
+      "follows_partner_rate": 0.25,
+      "truncated_rate": 0.0,
+      "mean_nll": 1.661186185781844,
+      "gen_seconds_per_answer": 0.04205384353796641,
+      "accuracy_number": 0.3645833333333333,
+      "accuracy_other": 0.46111111111111114,
+      "accuracy_yes/no": 0.6388888888888888
+    },
+    "complementary": {
+      "n": 192,
+      "accuracy": 0.28125,
+      "pair_accuracy": 0.020833333333333332,
+      "identical_answer_rate": 0.5,
+      "empty_rate": 0.0,
+      "follows_partner_rate": 0.4739583333333333,
+      "truncated_rate": 0.0,
+      "mean_nll": 2.5044837910487936,
+      "gen_seconds_per_answer": 0.04205384353796641,
+      "accuracy_number": 0.19999999999999998,
+      "accuracy_other": 0.1597222222222222,
+      "accuracy_yes/no": 0.45694444444444443
+    },
+    "mismatched": {
+      "n": 192,
+      "accuracy": 0.31614583333333335,
+      "pair_accuracy": 0.010416666666666666,
+      "identical_answer_rate": 0.7291666666666666,
+      "empty_rate": 0.0,
+      "follows_partner_rate": 0.3020833333333333,
+      "truncated_rate": 0.0,
+      "mean_nll": 2.5189626246186285,
+      "gen_seconds_per_answer": 0.04205384353796641,
+      "accuracy_number": 0.22499999999999998,
+      "accuracy_other": 0.1375,
+      "accuracy_yes/no": 0.5555555555555556
+    },
+    "none": {
+      "n": 192,
+      "accuracy": 0.2786458333333333,
+      "pair_accuracy": 0.0,
+      "identical_answer_rate": 1.0,
+      "empty_rate": 0.0,
+      "follows_partner_rate": 0.2552083333333333,
+      "truncated_rate": 0.0,
+      "mean_nll": 2.722130231682968,
+      "gen_seconds_per_answer": 0.04205384353796641,
+      "accuracy_number": 0.2125,
+      "accuracy_other": 0.14722222222222223,
+      "accuracy_yes/no": 0.4541666666666667
+    }
+  }
+}

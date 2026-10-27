@@ -1,0 +1,5 @@
+{
+  "model": "/content/drive/MyDrive/atml_pa3/task1/eval_models/lora4_final",
+  "gsm8k_seconds": 2409.3,
+  "mc_seconds": 778.8
+}

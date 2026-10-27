@@ -1,0 +1,5 @@
+{
+  "model": "Qwen/Qwen3-0.6B",
+  "gsm8k_seconds": 2048.1,
+  "mc_seconds": 789.9
+}

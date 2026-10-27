@@ -1,0 +1,56 @@
+{
+  "name": "vlm196",
+  "train_seconds": 6186.79439330101,
+  "dev_eval_seconds": 98.20224690437317,
+  "peak_mem_allocated_gb": 1.5572872161865234,
+  "peak_mem_reserved_gb": 1.7890625,
+  "sessions": [
+    {
+      "gpu": "Tesla T4",
+      "start_update": 0,
+      "end_update": 4500
+    }
+  ],
+  "skipped_updates": [
+    1,
+    2,
+    3,
+    4,
+    13,
+    14
+  ],
+  "trainable_params": {
+    "caption_alignment": 1837056,
+    "visual_instruction": 6424576,
+    "natural_vqa": 6424576
+  },
+  "mixture_counts": {
+    "caption_alignment": {
+      "caption": 36000
+    },
+    "visual_instruction": {
+      "caption": 5956,
+      "presence": 12062,
+      "counting": 5982
+    },
+    "natural_vqa": {
+      "vqa": 8404,
+      "counting": 1134,
+      "caption": 1236,
+      "presence": 1226
+    }
+  },
+  "calibration": {
+    "rule": "connector output x scale, scale = mean text-embedding norm (over all tokens of the training captions, questions and answers) / mean norm of initial connector outputs on 512 training images",
+    "text_norm": 0.8748619722148764,
+    "visual_norm_at_init": 15.863493670369689,
+    "scale": 0.05514938829956291,
+    "n_text_tokens": 331559
+  },
+  "warmup_updates": {
+    "caption_alignment": 113,
+    "visual_instruction": 75,
+    "natural_vqa": 38
+  },
+  "done": true
+}

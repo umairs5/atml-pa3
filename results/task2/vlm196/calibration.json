@@ -1,0 +1,7 @@
+{
+  "rule": "connector output x scale, scale = mean text-embedding norm (over all tokens of the training captions, questions and answers) / mean norm of initial connector outputs on 512 training images",
+  "text_norm": 0.8748619722148764,
+  "visual_norm_at_init": 15.863493670369689,
+  "scale": 0.05514938829956291,
+  "n_text_tokens": 331559
+}

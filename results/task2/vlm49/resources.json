@@ -1,0 +1,56 @@
+{
+  "name": "vlm49",
+  "train_seconds": 2720.359525680542,
+  "dev_eval_seconds": 42.026490211486816,
+  "peak_mem_allocated_gb": 1.4823150634765625,
+  "peak_mem_reserved_gb": 1.7890625,
+  "sessions": [
+    {
+      "gpu": "Tesla T4",
+      "start_update": 0,
+      "end_update": 4500
+    }
+  ],
+  "skipped_updates": [
+    1,
+    2,
+    3,
+    8,
+    9,
+    12
+  ],
+  "trainable_params": {
+    "caption_alignment": 1837056,
+    "visual_instruction": 6424576,
+    "natural_vqa": 6424576
+  },
+  "mixture_counts": {
+    "caption_alignment": {
+      "caption": 36000
+    },
+    "visual_instruction": {
+      "caption": 5956,
+      "presence": 12062,
+      "counting": 5982
+    },
+    "natural_vqa": {
+      "vqa": 8404,
+      "counting": 1134,
+      "caption": 1236,
+      "presence": 1226
+    }
+  },
+  "calibration": {
+    "rule": "connector output x scale, scale = mean text-embedding norm (over all tokens of the training captions, questions and answers) / mean norm of initial connector outputs on 512 training images",
+    "text_norm": 0.8748619722148764,
+    "visual_norm_at_init": 11.44882008363968,
+    "scale": 0.07641503367364912,
+    "n_text_tokens": 331559
+  },
+  "warmup_updates": {
+    "caption_alignment": 113,
+    "visual_instruction": 75,
+    "natural_vqa": 38
+  },
+  "done": true
+}
