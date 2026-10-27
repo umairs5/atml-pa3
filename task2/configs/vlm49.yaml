@@ -1,0 +1,31 @@
+name: vlm49
+seed: 6304
+visual_tokens: 49     # 2x2 average pooling of the 14x14 grid
+micro_batch: 8
+grad_accum: 2
+weight_decay: 0.01
+clip: 1.0
+warmup_frac: 0.05     # per stage, rounded up
+min_lr_frac: 0.1      # cosine decay to 10% of each stage's peak
+save_every: 250
+eval_every: 500       # plus the stage endpoints
+lora:
+  r: 16
+  alpha: 32
+  dropout: 0.05
+  targets: [q_proj, k_proj, v_proj, o_proj]
+stages:
+  - name: caption_alignment
+    updates: 2250
+    connector_lr: 1.0e-3
+    mixture: passes   # two shuffled passes over the 18,000 caption examples
+  - name: visual_instruction
+    updates: 1500
+    connector_lr: 1.0e-4
+    lora_lr: 2.0e-5
+    mixture: {presence: 0.5, counting: 0.25, caption: 0.25}
+  - name: natural_vqa
+    updates: 750
+    connector_lr: 5.0e-5
+    lora_lr: 1.0e-5
+    mixture: {vqa: 0.7, presence: 0.1, counting: 0.1, caption: 0.1}
