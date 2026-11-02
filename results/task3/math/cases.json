@@ -1,0 +1,163 @@
+{
+  "selection_rule": "Rule: shuffle the held-out questions with seed 6304, use the first order of each, and take the first two\nquestions of each kind.",
+  "groups": {
+    "consensus_right_quality_wrong": [
+      {
+        "sample_id": "test:3472",
+        "question": "What is the largest three-digit number in which the product of the digits is $12$?",
+        "gold": "621",
+        "selected": {
+          "self_consistency": {
+            "rollout": 16,
+            "answer": "621",
+            "correct": true
+          },
+          "top_certainty": {
+            "rollout": 6,
+            "answer": "223",
+            "correct": false
+          },
+          "rwc_certainty": {
+            "rollout": 16,
+            "answer": "621",
+            "correct": true
+          }
+        },
+        "pool_share_correct": 0.5
+      },
+      {
+        "sample_id": "test:3017",
+        "question": "The sum of the zeros, the product of the zeros, and the sum of the coefficients of the function $f(x)=ax^{2}+bx+c$ are equal. Their common value must also be which of the following?\n\n(A) The coefficient of $x^2.$\n(B) The coefficient of $x.$\n(C) The $y$-intercept of the graph of $y = f(x).$\n(D) One of the $x$-intercepts of the graph of $y = f(x).$\n(E) The mean of the $x$-intercepts of the graph of ",
+        "gold": "\\text{(A)}",
+        "selected": {
+          "self_consistency": {
+            "rollout": 19,
+            "answer": "A",
+            "correct": true
+          },
+          "top_certainty": {
+            "rollout": 16,
+            "answer": "\\text{C}",
+            "correct": false
+          },
+          "rwc_certainty": {
+            "rollout": 19,
+            "answer": "A",
+            "correct": true
+          }
+        },
+        "pool_share_correct": 0.5625
+      }
+    ],
+    "quality_rwc_right_consensus_wrong": [
+      {
+        "sample_id": "test:2755",
+        "question": "Use synthetic division to divide $x^4-3x^3+4x^2+11x-9$ by $x^2-3x+2$ and find the remainder.",
+        "gold": "17x-13",
+        "selected": {
+          "self_consistency": {
+            "rollout": 24,
+            "answer": "4",
+            "correct": false
+          },
+          "top_certainty": {
+            "rollout": 19,
+            "answer": "17x - 13",
+            "correct": true
+          },
+          "rwc_certainty": {
+            "rollout": 25,
+            "answer": "17x - 13",
+            "correct": true
+          }
+        },
+        "pool_share_correct": 0.21875
+      },
+      {
+        "sample_id": "test:2657",
+        "question": "The quadratic $x^2 + \\frac{3}{2} x - 1$ has the following property: the roots, which are $\\frac{1}{2}$ and $-2,$ are one less than the final two coefficients.  Find a quadratic with leading term $x^2$ such that the final two coefficients are both non-zero, and the roots are one more than these coefficients.  Enter the roots of this quadratic.",
+        "gold": "-2,\\frac{3}{2}",
+        "selected": {
+          "self_consistency": {
+            "rollout": 7,
+            "answer": "\\frac{5}{2}, 0",
+            "correct": false
+          },
+          "top_certainty": {
+            "rollout": 27,
+            "answer": "\\frac{3}{2}, -2",
+            "correct": true
+          },
+          "rwc_certainty": {
+            "rollout": 23,
+            "answer": "\\frac{3}{2}, -2",
+            "correct": true
+          }
+        },
+        "pool_share_correct": 0.09375
+      }
+    ],
+    "correct_candidate_missed_by_all": [
+      {
+        "sample_id": "test:4963",
+        "question": "In triangle $ABC,$ $AB = 3$ and $AC = 5.$  Let $O$ be the circumcenter of triangle $ABC.$  Find $\\overrightarrow{OA} \\cdot \\overrightarrow{BC}.$",
+        "gold": "-8",
+        "selected": {
+          "self_consistency": {
+            "rollout": 30,
+            "answer": "0",
+            "correct": false
+          },
+          "top_certainty": {
+            "rollout": 25,
+            "answer": "0",
+            "correct": false
+          },
+          "rwc_certainty": {
+            "rollout": 30,
+            "answer": "0",
+            "correct": false
+          }
+        },
+        "pool_share_correct": 0.03125
+      },
+      {
+        "sample_id": "test:553",
+        "question": "Find all $x$ that satisfy the inequality $(2x+10)(x+3)<(3x+9)(x+8)$. Express your answer in interval notation.",
+        "gold": "(-\\infty, -14)\\cup(-3,\\infty)",
+        "selected": {
+          "self_consistency": {
+            "rollout": 11,
+            "answer": "(-\\infty, -7) \\cup (-6, \\infty)",
+            "correct": false
+          },
+          "top_certainty": {
+            "rollout": 11,
+            "answer": "(-\\infty, -7) \\cup (-6, \\infty)",
+            "correct": false
+          },
+          "rwc_certainty": {
+            "rollout": 11,
+            "answer": "(-\\infty, -7) \\cup (-6, \\infty)",
+            "correct": false
+          }
+        },
+        "pool_share_correct": 0.0625
+      }
+    ]
+  },
+  "premature_stops": [
+    {
+      "sample_id": "test:4281",
+      "stopped_at": 4,
+      "support": 0.75,
+      "pool_share_correct": 0.4375
+    },
+    {
+      "sample_id": "test:1663",
+      "stopped_at": 4,
+      "support": 0.75,
+      "pool_share_correct": 0.34375
+    }
+  ]
+}

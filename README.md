@@ -6,7 +6,7 @@ Code for the three PA3 experiments (EE-5102/CS-6304, Fall 2026):
 2. A SigLIP + Qwen3-0.6B vision-language model and visual grounding tests
 3. Test-time compute on the supplied Qwen2.5 rollouts
 
-GPU work was run on Google Colab (T4). Task 3's offline analysis runs on CPU.
+GPU work was run on Google Colab (T4). Task 3's offline analysis runs on CPU, on a laptop.
 
 ## Setup
 
@@ -30,6 +30,7 @@ Raw datasets and checkpoints are not in the repo; the scripts download what they
 | Paired tests (bootstrap + McNemar), BoolQ yes-rate | `python -m task1.significance --lm_eval_dir RESULTS/lm_eval --out RESULTS` |
 | Weight / activation diagnostics | `python -m task1.diagnostics --runs_dir RUNS --out RESULTS/diagnostics` |
 | Qualitative responses | `python -m task1.qualitative --eval_dir EVAL --out RESULTS/qualitative` |
+| Manual labels for the 42-response subset, with counts | `python -m task1.annotate --dir RESULTS/qualitative` |
 | Learning curves | `python -m task1.plot_curves --runs_dir RUNS --out RESULTS/figures` |
 
 `notebooks/task1_colab.ipynb` runs all of the above on Colab with outputs on Google Drive.
@@ -55,6 +56,24 @@ LoRA and OPLoRA are implemented in `common/lora.py` (not peft), so that LoRA-16 
 
 `tests/test_vlm.py` checks the prompt layout, the 2x2 pooling, that gradients reach the connector while Qwen stays frozen, and that the cached greedy decoding loop matches `generate` with and without left padding.
 
+## Task 3
+
+The supplied rollouts go in `ATML-PA3-Data/` (not committed).
+
+| Step | Command |
+| --- | --- |
+| Dev/held-out splits, candidate orders, the 50 live questions | `python -m task3.splits` (already saved in `splits/task3/`) |
+| MathVista question metadata (no images) | `python -m task3.fetch_mathvista_meta` |
+| Check alignment, group and grade answers, per-rollout scores | `python -m task3.prepare` |
+| All selection rules at every budget | `python -m task3.simulate` |
+| Accuracy, coverage, paired bootstrap, curves | `python -m task3.analyze` |
+| Stopping policies (thresholds from dev only) | `python -m task3.adaptive` |
+| Signal associations, trajectories, example cases | `python -m task3.signals` |
+| Live generation (GPU, resumable) | `python -m task3.live --out RESULTS/task3/live` |
+| Grade and compare the live strategies | `python -m task3.live_analysis --live RESULTS/task3/live` |
+
+`notebooks/task3_colab.ipynb` runs the live generation. `tests/test_task3_answers.py` checks answer equivalence. Comparisons that pass the 5 s limit in `task3/answers.py` count as not equivalent and are listed in `results/task3/prepare_info.json`.
+
 ## Results
 
 `results/task1/` and `results/task2/` hold the outputs of the runs reported in the paper (tables, logs, per-question scores, figures).
@@ -66,4 +85,5 @@ The raw lm-eval sample logs are not committed because of their size; `results/ta
 - The HellaSwag context preprocessing in `task1/probe_set.py` is copied from lm-evaluation-harness (`lm_eval/tasks/hellaswag/utils.py`) so the probe prompts match the benchmark.
 - Benchmarks are run with lm-evaluation-harness 0.4.13.
 - The VQA answer normalization in `task2/vqa_norm.py` (contractions, number words, articles, punctuation rules) is adapted from the official VQA evaluation script (https://github.com/GT-Vision-Lab/VQA, `vqaEval.py`).
+- MATH answers are compared with math-verify (https://github.com/huggingface/Math-Verify). The MathVista numeric and choice rules follow the benchmark's evaluation code (https://github.com/lupantech/MathVista).
 - Task 2 uses COCO 2014 captions and instance annotations, VQAv2 questions/annotations/complementary pairs, and the `google/siglip-base-patch16-224` encoder.

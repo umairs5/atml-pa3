@@ -1,0 +1,163 @@
+{
+  "selection_rule": "Rule: shuffle the held-out questions with seed 6304, use the first order of each, and take the first two\nquestions of each kind.",
+  "groups": {
+    "consensus_right_quality_wrong": [
+      {
+        "sample_id": "408",
+        "question": "Find z.\nA. 6\nB. 6 \\sqrt { 2 }\nC. 6 \\sqrt { 3 }\nD. 6 \\sqrt { 5 }",
+        "gold": "D",
+        "selected": {
+          "self_consistency": {
+            "rollout": 22,
+            "answer": "D",
+            "correct": true
+          },
+          "top_certainty": {
+            "rollout": 3,
+            "answer": null,
+            "correct": false
+          },
+          "rwc_visconf": {
+            "rollout": 23,
+            "answer": null,
+            "correct": false
+          }
+        },
+        "pool_share_correct": 0.34375
+      },
+      {
+        "sample_id": "79",
+        "question": "As shown in the figure, points A, B, C, and D are on circle O, and point E is on the extended line of AD. If \u2220ABC = 60.0, then the degree of \u2220CDE is ()\nA. 30\u00b0\nB. 45\u00b0\nC. 60\u00b0\nD. 70\u00b0",
+        "gold": "C",
+        "selected": {
+          "self_consistency": {
+            "rollout": 29,
+            "answer": "C",
+            "correct": true
+          },
+          "top_certainty": {
+            "rollout": 22,
+            "answer": null,
+            "correct": false
+          },
+          "rwc_visconf": {
+            "rollout": 29,
+            "answer": "C",
+            "correct": true
+          }
+        },
+        "pool_share_correct": 0.6875
+      }
+    ],
+    "quality_rwc_right_consensus_wrong": [
+      {
+        "sample_id": "914",
+        "question": "Subtract all tiny purple shiny cubes. Subtract all large purple balls. How many objects are left?",
+        "gold": "9",
+        "selected": {
+          "self_consistency": {
+            "rollout": 14,
+            "answer": "8",
+            "correct": false
+          },
+          "top_certainty": {
+            "rollout": 22,
+            "answer": "8",
+            "correct": false
+          },
+          "rwc_visconf": {
+            "rollout": 6,
+            "answer": "9",
+            "correct": true
+          }
+        },
+        "pool_share_correct": 0.3125
+      },
+      {
+        "sample_id": "951",
+        "question": "Find $x$.\nA. 10.25\nB. 12.75\nC. 18.75\nD. 25.5",
+        "gold": "B",
+        "selected": {
+          "self_consistency": {
+            "rollout": 6,
+            "answer": null,
+            "correct": false
+          },
+          "top_certainty": {
+            "rollout": 24,
+            "answer": null,
+            "correct": false
+          },
+          "rwc_visconf": {
+            "rollout": 26,
+            "answer": "B",
+            "correct": true
+          }
+        },
+        "pool_share_correct": 0.3125
+      }
+    ],
+    "correct_candidate_missed_by_all": [
+      {
+        "sample_id": "598",
+        "question": "What is the most curved beak species?\nA. iiki\nB. swallow-tanager\nC. cliff swallow\nD. hawfinch",
+        "gold": "A",
+        "selected": {
+          "self_consistency": {
+            "rollout": 31,
+            "answer": "D",
+            "correct": false
+          },
+          "top_certainty": {
+            "rollout": 14,
+            "answer": "D",
+            "correct": false
+          },
+          "rwc_visconf": {
+            "rollout": 31,
+            "answer": "D",
+            "correct": false
+          }
+        },
+        "pool_share_correct": 0.0625
+      },
+      {
+        "sample_id": "196",
+        "question": "\u5982\u56fe\u6240\u793a\uff0c\u5728\u25b3ABC\u4e2d\uff0c\u5df2\u77e5\u70b9D\uff0cE\uff0cF\u5206\u522b\u4e3a\u8fb9BC\uff0cAD\uff0cCE\u7684\u4e2d\u70b9\uff0c\u4e14S\u25b3ABC\uff1d4cm2\uff0c\u5219S\u25b3DEF\u7b49\u4e8e\uff08\uff09\nA. 2cm2\nB. 1cm2\nC. 0.5cm2\nD. 0.25cm2",
+        "gold": "C",
+        "selected": {
+          "self_consistency": {
+            "rollout": 5,
+            "answer": null,
+            "correct": false
+          },
+          "top_certainty": {
+            "rollout": 17,
+            "answer": null,
+            "correct": false
+          },
+          "rwc_visconf": {
+            "rollout": 5,
+            "answer": null,
+            "correct": false
+          }
+        },
+        "pool_share_correct": 0.09375
+      }
+    ]
+  },
+  "premature_stops": [
+    {
+      "sample_id": "69",
+      "stopped_at": 4,
+      "support": 0.75,
+      "pool_share_correct": 0.40625
+    },
+    {
+      "sample_id": "265",
+      "stopped_at": 8,
+      "support": 0.625,
+      "pool_share_correct": 0.375
+    }
+  ]
+}

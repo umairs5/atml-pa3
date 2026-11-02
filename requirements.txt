@@ -10,3 +10,6 @@ pyarrow
 pyyaml
 tqdm
 matplotlib
+scipy
+math-verify[antlr4_9_3]==0.9.0
+huggingface_hub

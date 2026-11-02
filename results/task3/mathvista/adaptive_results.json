@@ -1,0 +1,132 @@
+{
+  "selected_on_dev": {
+    "agreement": {
+      "family": "agreement",
+      "tau": 0.625,
+      "gamma": null,
+      "dev_acc": 64.0,
+      "dev_cost": 5075.0065,
+      "dev_rollouts": 13.672,
+      "dev_accuracy_floor": 62.849999999999994
+    },
+    "quality": {
+      "family": "quality",
+      "tau": 0.5,
+      "gamma": 0.0,
+      "dev_acc": 63.0,
+      "dev_cost": 3627.3905,
+      "dev_rollouts": 9.826,
+      "dev_accuracy_floor": 62.849999999999994
+    }
+  },
+  "held_out": {
+    "agreement": {
+      "tau": 0.625,
+      "gamma": null,
+      "accuracy": 63.5875,
+      "mean_tokens": 4507.66175,
+      "mean_rollouts": 13.313,
+      "stop_distribution": {
+        "4": 0.58325,
+        "8": 0.0855,
+        "16": 0.019,
+        "32": 0.31225
+      },
+      "accuracy_vs_fixed32_pp": [
+        0.05000000000000013,
+        -0.5124999999999998,
+        0.7125000000000001
+      ],
+      "tokens_vs_fixed32": [
+        -4390.0957499999995,
+        -4646.348715625,
+        -4150.306959375
+      ],
+      "token_saving_pct": 49.33935039250058,
+      "early_stop_rate": 0.68775,
+      "accuracy_when_early": 79.51653944020356,
+      "incorrect_early_stops": 0.140875,
+      "recoverable_by_fixed32": 0.0155,
+      "early_wrong_share_recoverable": 0.11002661934338953,
+      "gained_vs_fixed32": 0.016,
+      "lost_vs_fixed32": 0.0155,
+      "nearest_fixed_n": 16,
+      "nearest_fixed_tokens": 4446.81025,
+      "accuracy_vs_nearest_fixed_pp": [
+        1.1875,
+        0.3996875,
+        1.9753124999999996
+      ]
+    },
+    "quality": {
+      "tau": 0.5,
+      "gamma": 0.0,
+      "accuracy": 63.0375,
+      "mean_tokens": 3363.083,
+      "mean_rollouts": 10.113,
+      "stop_distribution": {
+        "4": 0.678,
+        "8": 0.101125,
+        "16": 0.02975,
+        "32": 0.191125
+      },
+      "accuracy_vs_fixed32_pp": [
+        -0.4999999999999998,
+        -1.4374999999999996,
+        0.47531249999999986
+      ],
+      "tokens_vs_fixed32": [
+        -5534.674500000001,
+        -5824.21016875,
+        -5241.6429906250005
+      ],
+      "token_saving_pct": 62.203026998656675,
+      "early_stop_rate": 0.808875,
+      "accuracy_when_early": 73.58986246329779,
+      "incorrect_early_stops": 0.213625,
+      "recoverable_by_fixed32": 0.03275,
+      "early_wrong_share_recoverable": 0.15330602691632533,
+      "gained_vs_fixed32": 0.02775,
+      "lost_vs_fixed32": 0.03275,
+      "nearest_fixed_n": 16,
+      "nearest_fixed_tokens": 4446.81025,
+      "accuracy_vs_nearest_fixed_pp": [
+        0.6375000000000002,
+        -0.06249999999999986,
+        1.3250000000000002
+      ]
+    }
+  },
+  "fixed_self_consistency": [
+    {
+      "n": 1,
+      "accuracy": 54.0625,
+      "mean_tokens": 280.07675
+    },
+    {
+      "n": 2,
+      "accuracy": 54.0625,
+      "mean_tokens": 557.5521249999999
+    },
+    {
+      "n": 4,
+      "accuracy": 58.8625,
+      "mean_tokens": 1111.7176249999998
+    },
+    {
+      "n": 8,
+      "accuracy": 60.912499999999994,
+      "mean_tokens": 2224.47675
+    },
+    {
+      "n": 16,
+      "accuracy": 62.4,
+      "mean_tokens": 4446.81025
+    },
+    {
+      "n": 32,
+      "accuracy": 63.537499999999994,
+      "mean_tokens": 8897.7575
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "length_correct_r": -0.07896303718235748,
+  "confidence_vision": {
+    "question_mean_r": -0.20934390585517285,
+    "question_median_r": -0.21048683184226727,
+    "question_r_q25": -0.30426889410590546,
+    "question_r_q75": -0.09263065282402472,
+    "share_questions_positive": 0.1075,
+    "share_rollouts_positive": 0.1480859375,
+    "max_identity_error": 5.117434254131581e-17
+  }
+}
