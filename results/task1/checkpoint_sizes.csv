@@ -1,0 +1,6 @@
+run,run_folder_total,final_checkpoint,periodic_checkpoint
+full_ft,32G,8.9G,6.7G
+full_ft_l2sp,29G,8.9G,6.7G
+lora_r4,128M,40M,30M
+lora_r16,503M,155M,116M
+oplora_r16,503M,155M,116M

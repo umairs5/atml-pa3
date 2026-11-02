@@ -83,6 +83,17 @@ def new_answer_rates(res, ds, orders):
     return pd.DataFrame({"position": np.arange(1, 33), "new_group": new / n_cases, "first_correct": first_right / n_cases})
 
 
+def no_answer_rates(picks, res, ds):
+    """How often each rule returns the NO_ANSWER group or a capped rollout at N = 32, against the pool's base rate."""
+    t = pd.read_csv(os.path.join(res, ds, "rollouts.csv.gz"), dtype={"sample_id": str}, usecols=["sample_id", "rollout_id", "split", "group", "capped"])
+    t = t[t["split"] == "eval"]
+    p = picks[(picks["split"] == "eval") & (picks["n"] == 32)].merge(
+        t[["sample_id", "rollout_id", "capped"]], left_on=["sample_id", "rollout"], right_on=["sample_id", "rollout_id"])
+    out = p.groupby("method").agg(no_answer=("group", lambda g: (g < 0).mean()), capped=("capped", "mean")).reset_index()
+    base = pd.DataFrame([{"method": "pool_base_rate", "no_answer": (t["group"] < 0).mean(), "capped": t["capped"].mean()}])
+    return pd.concat([base, out], ignore_index=True)
+
+
 def plot_curves(all_curves, res):
     show = {"math": ["first", "self_consistency", "top_logp", "top_certainty", "rwc_certainty"],
             "mathvista": ["first", "self_consistency", "top_certainty", "rwc_certainty", "top_visconf", "rwc_visconf"]}
@@ -117,7 +128,11 @@ def main():
     all_curves = {}
     pd.set_option("display.width", 220)
     for ds in FOLDERS:
-        q = per_question(read_selections(args.out, ds))
+        picks = read_selections(args.out, ds)
+        na = no_answer_rates(picks, args.out, ds)
+        na.to_csv(os.path.join(args.out, ds, "no_answer_selected.csv"), index=False)
+        print(na.round(3).to_string(index=False))
+        q = per_question(picks)
         q.to_csv(os.path.join(args.out, ds, "per_question.csv.gz"), index=False)
         c = curves(q)
         c.to_csv(os.path.join(args.out, ds, "method_curves.csv"), index=False)

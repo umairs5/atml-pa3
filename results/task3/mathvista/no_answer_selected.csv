@@ -1,0 +1,14 @@
+method,no_answer,capped
+pool_base_rate,0.0972265625,0.015078125
+first,0.09625,0.016375
+rwc_certainty,0.07525,0.010375
+rwc_tokenwise,0.0725,0.007375
+rwc_visconf,0.070625,0.00675
+rwc_vision,0.066375,0.0065
+self_consistency,0.07625,0.014375
+shortest,0.084625,0.0
+top_certainty,0.10375,0.0075
+top_logp,0.22,0.17875
+top_tokenwise,0.0975,0.0
+top_visconf,0.095,0.0
+top_vision,0.1025,0.0

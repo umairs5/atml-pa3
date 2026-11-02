@@ -1,0 +1,8 @@
+method,no_answer,capped
+pool_base_rate,0.01671875,0.0167578125
+first,0.015625,0.0155
+rwc_certainty,0.01125,0.01125
+self_consistency,0.018875,0.018875
+shortest,0.0,0.0
+top_certainty,0.00125,0.0025
+top_logp,0.14375,0.145

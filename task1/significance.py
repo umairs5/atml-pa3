@@ -27,7 +27,7 @@ TASKS = [("gsm8k", "gsm8k/**/samples_gsm8k_cot_*.jsonl", "exact_match", "flexibl
          ("arc_easy", "mc/**/samples_arc_easy_*.jsonl", "acc_norm", None)]
 PAIRS = [(c, "baseline") for c in CONDITIONS[1:]] + [
     ("full_final", "full_mid"), ("l2sp_final", "full_final"), ("lora16_final", "full_final"),
-    ("lora16_final", "lora4_final"), ("oplora16_final", "lora16_final")]
+    ("lora16_final", "lora4_final"), ("oplora16_final", "lora16_final"), ("l2sp_final", "lora4_final")]
 
 
 def read_task(cond_dir, pattern, metric, keep):
