@@ -1,0 +1,40 @@
+{
+  "method": "full",
+  "name": "full_ft",
+  "train_seconds": 8411.638736486435,
+  "peak_mem_allocated_gb": 11.693331241607666,
+  "peak_mem_reserved_gb": 13.708984375,
+  "sessions": [
+    {
+      "gpu": "Tesla T4",
+      "start_update": 0,
+      "end_update": 1250
+    }
+  ],
+  "skipped_updates": [],
+  "checkpoints": {
+    "312": {
+      "recovery_bytes": 7152988537,
+      "save_seconds": 23.6
+    },
+    "625": {
+      "recovery_bytes": 7152988665,
+      "save_seconds": 24.8,
+      "export_bytes": 2384236541,
+      "export_seconds": 10.6
+    },
+    "937": {
+      "recovery_bytes": 7152988793,
+      "save_seconds": 24.3
+    },
+    "1250": {
+      "recovery_bytes": 7152988793,
+      "save_seconds": 22.7,
+      "export_bytes": 2384236541,
+      "export_seconds": 9.1
+    }
+  },
+  "trainable_params": 596049920,
+  "total_params": 596049920,
+  "done": true
+}

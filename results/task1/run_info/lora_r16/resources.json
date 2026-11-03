@@ -1,0 +1,39 @@
+{
+  "method": "lora",
+  "name": "lora_r16",
+  "train_seconds": 9508.166012048721,
+  "peak_mem_allocated_gb": 3.2550477981567383,
+  "peak_mem_reserved_gb": 6.033203125,
+  "sessions": [
+    {
+      "gpu": "Tesla T4",
+      "start_update": 0,
+      "end_update": 1250
+    }
+  ],
+  "skipped_updates": [],
+  "checkpoints": {
+    "312": {
+      "recovery_bytes": 121586645,
+      "save_seconds": 0.5
+    },
+    "625": {
+      "recovery_bytes": 121586709,
+      "save_seconds": 0.6
+    },
+    "937": {
+      "recovery_bytes": 121586773,
+      "save_seconds": 0.5
+    },
+    "1250": {
+      "recovery_bytes": 121586773,
+      "save_seconds": 0.5,
+      "export_bytes": 40487599,
+      "export_seconds": 0.1
+    }
+  },
+  "n_adapted_modules": 196,
+  "trainable_params": 10092544,
+  "total_params": 606142464,
+  "done": true
+}

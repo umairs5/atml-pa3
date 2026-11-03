@@ -76,7 +76,8 @@ The supplied rollouts go in `ATML-PA3-Data/` (not committed).
 
 ## Results
 
-`results/task1/` and `results/task2/` hold the outputs of the runs reported in the paper (tables, logs, per-question scores, figures).
+`results/task1/`, `results/task2/` and `results/task3/` hold the outputs of the runs reported in the paper (tables, logs, per-question scores, figures).
+`results/task1/run_info/` has the config, per-update training log and resource record of each Task 1 run (checkpoints are not committed). `results/task3/live/generations.jsonl` has every live response with its prompt, token counts and timing.
 The raw lm-eval sample logs are not committed because of their size; `results/task1/per_question.csv` has the per-question correctness for every condition, which is all the significance tests use.
 
 ## External code and data

@@ -48,7 +48,7 @@ def main():
         r = json.loads(line)
         calls[(r["sample_id"], r["call"])] = r
 
-    rows = []
+    rows, par_answered = [], []
     for q in load_json(args.questions):
         s, gold = q["sample_id"], q["gold_answer"]
         c = {name: calls[(s, name)] for name in ["long", *PARALLEL, "revision"]}
@@ -60,6 +60,9 @@ def main():
         group = dict(zip(names, ids))
         winner, _ = vote([group[n] for n in PARALLEL])
         par = {"correct": right[PARALLEL[winner]], "answer": ans[PARALLEL[winner]]}
+        # same vote with missing answers left out, as a check on how much truncation costs the vote
+        answered = [n for n in PARALLEL if group[n] >= 0]
+        par_answered.append(bool(answered) and right[answered[vote([group[n] for n in answered])[0]]])
         cost = lambda names_: {k: sum(c[n][k] for n in names_) for k in ["output_tokens", "input_tokens", "seconds"]}
         strategies = {"single_long": (["long"], right["long"], ans["long"]),
                       "parallel": (PARALLEL, par["correct"], par["answer"]),
@@ -103,12 +106,15 @@ def main():
         if not same:
             transitions.setdefault("changed_answer_examples", []).append({"sample_id": s, "initial": a, "revised": b, "initial_correct": bool(init[s]), "revised_correct": bool(rev[s])})
     transitions["answer_changed"] = int(sum(changed))
-    save_json({"transitions": transitions, "differences": diffs}, os.path.join(args.live, "comparison.json"))
+    transitions["changed_from_missing"] = sum(e["initial"] is None for e in transitions.get("changed_answer_examples", []))
+    checks = {"parallel_vote_answered_only_accuracy": 100 * float(np.mean(par_answered))}
+    save_json({"transitions": transitions, "differences": diffs, "checks": checks}, os.path.join(args.live, "comparison.json"))
 
     pd.set_option("display.width", 220)
     print(summary.round(2).to_string(index=False))
     print(pd.DataFrame(diffs).round(1).to_string(index=False))
     print({k: v for k, v in transitions.items() if k != "changed_answer_examples"})
+    print(checks)
 
 
 if __name__ == "__main__":

@@ -1,0 +1,29 @@
+{
+  "model": "Qwen/Qwen2.5-3B-Instruct",
+  "revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+  "dtype": "float16",
+  "quantization": null,
+  "batch_size": 1,
+  "sampling": {
+    "do_sample": true,
+    "temperature": 0.7,
+    "top_p": 0.8,
+    "top_k": 20,
+    "repetition_penalty": 1.0
+  },
+  "caps": {
+    "long": 3072,
+    "parallel": 1024,
+    "revision": 2048
+  },
+  "seed": 6304,
+  "stop_ids": [
+    151643,
+    151645
+  ],
+  "gpu": "Tesla T4",
+  "torch": "2.11.0+cu130",
+  "system": "You are a helpful assistant.",
+  "suffix": "Think step by step inside <think> </think> tags, then give your final answer inside \\boxed{}.",
+  "review": "Review the solution above. Identify and correct any errors; if it is correct, retain its answer. Give your final answer inside \\boxed{}."
+}

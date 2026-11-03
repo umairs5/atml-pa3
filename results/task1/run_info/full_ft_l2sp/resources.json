@@ -1,0 +1,41 @@
+{
+  "method": "full",
+  "name": "full_ft_l2sp",
+  "train_seconds": 8788.918832540512,
+  "peak_mem_allocated_gb": 11.686139106750488,
+  "peak_mem_reserved_gb": 13.228515625,
+  "sessions": [
+    {
+      "gpu": "Tesla T4",
+      "start_update": 0,
+      "end_update": 1250
+    }
+  ],
+  "skipped_updates": [],
+  "checkpoints": {
+    "312": {
+      "recovery_bytes": 7152988665,
+      "save_seconds": 23.9
+    },
+    "625": {
+      "recovery_bytes": 7152988729,
+      "save_seconds": 23.6
+    },
+    "937": {
+      "recovery_bytes": 7152988793,
+      "save_seconds": 23.2
+    },
+    "1250": {
+      "recovery_bytes": 7152988857,
+      "save_seconds": 23.3,
+      "export_bytes": 2384236541,
+      "export_seconds": 9.4
+    }
+  },
+  "trainable_params": 596049920,
+  "total_params": 596049920,
+  "ref_bytes": 2384199680,
+  "ref_device": "cpu",
+  "l2sp_seconds": 360.0512201786041,
+  "done": true
+}
